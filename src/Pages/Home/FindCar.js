@@ -7,8 +7,7 @@ const FindCar = () => {
     return (
         <div className='findcar-main mt-3' style={{ backgroundImage: `url(${bgimg})` }} >
 
-            <ScrollAnimation animateIn='fadeIn'
-                 delay={2000}>
+            
                 <div className='fincar-overflow'>
                     <h1 className='findcar-title '>Find  cars for your journey</h1>
                     <div className='container'>
@@ -63,7 +62,7 @@ const FindCar = () => {
                         </div>
                     </div>
                 </div>
-            </ScrollAnimation>
+            
         </div>
     );
 };

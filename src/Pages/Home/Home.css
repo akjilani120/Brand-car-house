@@ -11,7 +11,7 @@
 }
 .fincar-overflow{
     height: 65vh;
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.507);
     color: white;
     text-align: center; 
     padding: 15px 10px;
@@ -21,9 +21,14 @@
     text-transform: uppercase;
     margin-top: 20px;
 }
+.service-item{
+    border: 1px solid white;
+}
 .service-item:hover{
     border-radius: 5px;
     box-shadow: 0px 10px 15px silver;
+    background-color: white;
+    color: black;
 }
 .service-icon-head{
     position: relative;
@@ -49,6 +54,64 @@
 .service-item h4{
     font-size: 22px;
     font-weight: 600;
+}
+.home-service-main{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.populer-car{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+.car-items-head{
+    margin: 0px 5px;
+   border: 1px solid rgba(67, 250, 219, 0.514);
+   padding: 10px;
+   border-radius: 5px;
+   position: relative;
+   
+}
+.car-items-head:hover{
+    background-color: white;
+    color: black;
+}
+.car-items-head:hover img{
+ transform: scale(1.5);
+}
+.car-items-head ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.car-items-head ul li{
+    opacity: .8;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.car-about{
+ width: 60%;
+}
+.car-img{
+    width: 40%;
+    overflow: hidden;
+}
+.car-img img{
+    height: 200px;
+    transition: 1s;
+    
+}
+.show-all{
+    padding:10px 15px;
+    background-color:rgb(245, 91, 91) ;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5px;
 }
 @media screen and (max-width:650px) {
     .findcar-title{

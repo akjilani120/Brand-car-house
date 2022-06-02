@@ -1,13 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTruckFast,  faDollyBox , faHeadset, faCreditCard } from '@fortawesome/free-solid-svg-icons';
-import ScrollAnimation from 'react-animate-on-scroll';
+
 const HomeService = () => {
     return (
-        <div className='home-service-main my-5'>
+        <div className='home-service-main py-5'>
             <div className='container'>
-                <ScrollAnimation animateIn='fadeIn'
-                 delay={2000}>
+                
                     <div className='row'>
                     <div className='col-lg-3 col-6'>
                         <div  className='service-item p-3'>
@@ -29,7 +28,7 @@ const HomeService = () => {
                     <div className='col-lg-3 col-6'>
                         <div  className='service-item p-3'>
                             <p className='service-icon-head'> <span className='service-number' >03</span> <FontAwesomeIcon className='service-icon' icon={ faHeadset } /> </p>
-                            <h4>24/7 Friendly support <span className='text-warning '>.</span> </h4>
+                            <h4>24/7 Friendly support  </h4>
                             <p  className='service-details'>Our support team always ready for you</p>
                             <p className='service-details'>to 7 days week</p>
                         </div>
@@ -43,7 +42,7 @@ const HomeService = () => {
                         </div>
                     </div>
                 </div>
-                </ScrollAnimation>
+               
                 
             </div>
         </div>

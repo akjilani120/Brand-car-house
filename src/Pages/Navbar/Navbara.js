@@ -10,7 +10,7 @@ const Navbara = () => {
     return (
       <div className='navbar-main'>
           <NavbarHeader></NavbarHeader>
-            <Navbar collapseOnSelect expand="lg" className='navigat' >
+            <Navbar  collapseOnSelect expand="lg" className='navigat' >
             <Container>
                 <Navbar.Brand className='d-lg-none' href="#home"> <h2 className='Navbar-title '> <span className='ak'>B</span>rand <span className='ak'>C</span>ar <span className='ak'>H</span>ouse </h2></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

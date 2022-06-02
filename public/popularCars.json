@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img" : "https://toyota.com.bd/media/images/altis_front.width-1920.png",
+        "name" :"Corolla Altis Hybrid",
+        "company": "TOYOTA",
+        "Condition" : "New"
+
+    },
+    {
+        "id":2 ,
+        "img" : "https://www.freepnglogos.com/uploads/honda-car-png/honda-car-upcoming-new-honda-cars-india-new-honda-3.png",
+        "name" :"Honda Motor Series j",
+        "company": "HONDA MOTOS COMPANY",
+        "Condition" : "New"
+
+    },
+    {
+        "id": 3,
+        "img" : "https://c8.alamy.com/comp/W17PN7/brussels-belgium-jan-2019-volkswagen-vw-polo-at-brussels-motor-show-sixth-generation-typ-aw-mqb-a0-platform-produced-by-volkswagen-group-W17PN7.jpg",
+        "name" :"VW polo Aries",
+        "company": "volkswagen",
+        "Condition" : "New"
+
+    },
+    {
+        "id":4 ,
+        "img" : "https://www.tata.com/content/dam/tata/images/verticals/desktop/hexa_card_desktop_362x362.jpg",
+        "name" :"Tata Businnes vertical series",
+        "company": "TATA",
+        "Condition" : "New"
+
+    },
+    {
+        "id": 5,
+        "img" : "https://images.hgmsites.net/med/2021-mazda-mazda6-sport-auto-angular-front-exterior-view_100780481_m.jpg",
+        "name" :"Mazda MAZDA6",
+        "company": "Mazda",
+        "Condition" : "New"
+
+    },
+    {
+        "id":6 ,
+        "img" : "https://thumbs.dreamstime.com/b/white-jac-car-china-zhengzhou-international-automotive-exhibition-48978642.jpg",
+        "name" :"JAC series j 2022",
+        "company": "JAC",
+        "Condition" : "New"
+
+    }
+]
