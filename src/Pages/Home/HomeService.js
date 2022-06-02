@@ -16,7 +16,7 @@ const HomeService = () => {
                             <p className='service-details'>about $ 100</p>
                         </div>
                     </div>
-                    <div className='col-lg-3 col-6'>
+                    <div className='col-lg-3 col-6 mb-3'>
                         <div  className='service-item p-3'>
                             <p className='service-icon-head'> <span className='service-number' >02</span> <FontAwesomeIcon className='service-icon' icon={faDollyBox } /> </p>
                             

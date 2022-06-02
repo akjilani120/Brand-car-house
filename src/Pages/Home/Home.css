@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 .findcar-main{
-    height: 65vh;
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .fincar-overflow{
-    height: 65vh;
+    height: 70vh;
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
     text-align: center; 
@@ -67,7 +67,7 @@
 }
 .car-items-head{
     margin: 0px 5px;
-   border: 1px solid rgba(67, 250, 219, 0.514);
+   border: 1px solid rgb(255, 255, 255);
    padding: 10px;
    border-radius: 5px;
    position: relative;
@@ -113,8 +113,46 @@ margin: 0;
     position: absolute;
     bottom: 5px;
 }
-@media screen and (max-width:650px) {
+/* Looks car component Start */
+.lookCar-items{
+    width: 50%;
+    position: relative;
+    border-radius: 5px;    
+    overflow: hidden;
+}
+.lookCar-items:hover img{
+ transform: scale(1.5);
+}
+.lookCar-items  img{
+    height: 220px;
+    width: 100%;
+    border-radius: 5px;
+    transition: 2s;
+}
+.looks-car-abus{
+    background-color: rgba(0, 0, 0, 0.466);
+    position: absolute;
+    top: 0;
+    padding: 30px 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    text-align: end;
+    color: white;
+}
+.offer-btn{
+    padding:10px 15px;
+    background-color:rgb(245, 91, 91) ;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+/* Looks car component over */
+@media screen and (max-width:778px) {
     .findcar-title{
         font-size: 35px;
     }
+   
 }
