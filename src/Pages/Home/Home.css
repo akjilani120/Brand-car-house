@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .findcar-main{
     height: 65vh;
     background-position: center;
@@ -15,6 +20,35 @@
     font-size: 45px;
     text-transform: uppercase;
     margin-top: 20px;
+}
+.service-item:hover{
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px silver;
+}
+.service-icon-head{
+    position: relative;
+}
+.service-icon{
+    color: rgb(245, 91, 91);
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+   left: 0;
+   top: 30px;
+}
+.service-details{
+   opacity: .5;
+    font-weight: 500;
+}
+.service-number{
+    font-size: 65px;
+    opacity: .3;
+    font-weight: 600;
+    z-index: .2;
+}
+.service-item h4{
+    font-size: 22px;
+    font-weight: 600;
 }
 @media screen and (max-width:650px) {
     .findcar-title{
