@@ -26,9 +26,10 @@ const Banner = () => {
                 src="https://i.pinimg.com/564x/d5/5f/92/d55f9254d763bd7319a00e4eed808f10.jpg"
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <Carousel.Caption className='carousel-caption-item'>
+                <button className='slide-btn'>Shop Now</button>
+                <h3>Black Lamborghini</h3>
+                <p>This is looking awesome.This body color is black</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -38,9 +39,10 @@ const Banner = () => {
                 alt="Second slide"
               />
 
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Carousel.Caption className='carousel-caption-item'>
+                <button className='slide-btn'>Shop Now</button>
+                <h3>Black Vugati</h3>
+                <p>This is looking beautifully.This body color is black</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -50,9 +52,10 @@ const Banner = () => {
                 alt="Third slide"
               />
 
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <Carousel.Caption className='carousel-caption-item'>
+                <button className='slide-btn'>Shop Now</button>
+                <h3>Silver Lamborghini</h3>
+                <p>This is looking good.This body is is silver</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

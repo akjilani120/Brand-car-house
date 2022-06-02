@@ -1,0 +1,23 @@
+.findcar-main{
+    height: 65vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fincar-overflow{
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    text-align: center; 
+    padding: 15px 10px;
+}
+.findcar-title{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+@media screen and (max-width:650px) {
+    .findcar-title{
+        font-size: 35px;
+    }
+}

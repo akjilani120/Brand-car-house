@@ -1,4 +1,4 @@
-
+import "animate.css/animate.min.css";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbara from './Pages/Navbar/Navbara';
