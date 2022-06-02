@@ -1,0 +1,94 @@
+
+.nav-item-link{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+    padding: 15px 12px  ;
+    
+}
+.nav-item-link:hover{
+    color:white ;
+    background-color: rgb(245, 91, 91);
+    border-radius: 5px;
+}
+.nav-login{
+text-decoration: none;
+}
+
+.login-items p{
+padding: 0;
+margin: 0;
+
+line-height: 17px;
+font-size: 18px;
+font-weight: 400;
+color: black;
+text-transform: capitalize;
+padding: 15px 12px  ;
+}
+.user-icon{
+    margin-right: 8px;
+}
+.login-items p:hover {
+    color:white ;
+    background-color: rgb(245, 91, 91);
+    border-radius: 5px;
+
+}
+.Navbar-title{
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    
+}
+.Navbar-title .ak{
+color: rgb(245, 91, 91);
+ 
+}
+.head-title{
+    width: 25%;
+}
+.search-title{
+    width: 50%;
+}
+.icon-title{
+    width: 20%;
+}
+.search-btn{
+    background-color:rgb(245, 91, 91) ;
+    border: none;
+}
+.search-input{
+    border: 1px solid  rgb(245, 91, 91);
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+}
+.link-icon{
+    color: rgb(245, 91, 91);
+}
+.icon-border{
+   border-right: 2px solid silver;
+   margin-right: 15px;
+}
+.header-icon{
+    font-size: 28px;   
+    
+}
+.navbar-main{
+    background-color: white;
+    box-shadow: 0px  0px 15px silver;
+}
+.Nav-header{
+    border-bottom: 1px solid rgb(245, 91, 91);
+}
+@media screen  and (max-width:950px){
+   .search-title{
+       width: 60%;
+   } 
+   .icon-title{
+    width: 30%; 
+   }
+}
