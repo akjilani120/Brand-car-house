@@ -1,12 +1,15 @@
 .spe-header{
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
     background-attachment: fixed;
 }
 .spe-overflow{
     background-color: rgba(0, 0, 0, 0.76);
    
+}
+.spe-collection{
+    padding-bottom: 50px ;
 }
 .spe-title h1{
     font-size: 60px;
@@ -22,7 +25,7 @@
 .spe-items img{
     width: 80%;
     height: 350px;
-    border-radius: 5px;
+    border-radius: 0px 100px 0px 100px;
 }
 .spe-items:hover .spe-items-body{
     transform: translateY(20px);
@@ -65,4 +68,28 @@
 }
 .spe-details-btn:hover{
     background:white;
+}
+@media screen and (max-width:778px) {
+    .spe-collection{
+        padding-bottom: 80px ;
+    }
+    .spe-items{
+        margin-bottom: 140px ;
+        margin-top: 75px;
+    }
+    .spe-title h1{
+        font-size: 45px;
+    }
+    .spe-items img{
+        width: 100%;
+    }
+    .spe-items-body{
+        width: 100%;
+        left: 0%;
+        bottom: -50%;
+       
+    }
+    .spe-price{
+        padding: 5px;        
+    }
 }

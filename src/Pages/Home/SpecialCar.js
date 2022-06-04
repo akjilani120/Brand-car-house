@@ -15,10 +15,11 @@ const SpecialCar = () => {
         <div className='spe-header' style={{ backgroundImage: `url(${specialBg})` }}>
             <div className='spe-overflow'>
                 <div className='container'>
-                    <div className='row pb-5'>
+                    <div className='row spe-collection'>
                         <div className='col-12'>
                             <div className='spe-title text-white py-5 text-center'>
                                 <h1>Update and Special Car collection</h1>
+                                <p>Contact us if you want to get the best of all the cars from this company</p>
                             </div>
                         </div>
                         {
