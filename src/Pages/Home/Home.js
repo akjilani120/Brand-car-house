@@ -4,6 +4,7 @@ import FindCar from './FindCar';
 import HomeService from './HomeService';
 import LooksCar from './LooksCar';
 import PopulerCar from './PopulerCar';
+import SpecialCar from './SpecialCar';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
            <HomeService></HomeService>
            <PopulerCar></PopulerCar>
            <LooksCar></LooksCar>
+           <SpecialCar></SpecialCar>
         </div>
     );
 };

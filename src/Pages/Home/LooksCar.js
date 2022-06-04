@@ -2,7 +2,7 @@ import React from 'react';
 
 const LooksCar = () => {
     return (
-        <div className='d-flex mt-2 mb-5'>
+        <div className='d-flex my-2'>
             <div className='lookCar-items me-2'>
                 <img className='' src='https://i.pinimg.com/originals/8f/95/6f/8f956f7ad2ff32b2a95bf26f5acbb789.jpg' alt='addvities photos'></img>
                 <div className='looks-car-abus'>

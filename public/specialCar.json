@@ -1,0 +1,65 @@
+[
+    {
+        "img" :"https://c4.wallpaperflare.com/wallpaper/412/867/691/car-bmw-bmw-i8-cyan-wallpaper-thumb.jpg",
+        "brand" :"BMW",
+        "model" : "BMW i8",
+        "description" : "The BMW i8 is a plug-in hybrid sports car developed by BMW. The i8 was part of BMW's electrified fleet and was marketed under the BMW i sub-brand. The production version of the BMW i8 was unveiled at the 2013 Frankfurt Motor Show and was released in Germany in June 2014.",
+        "accelerat" : "i8 accelerated from 0 to 100 km/h (62 mph) in 4.4 seconds",
+        "topSpeed" : "250 km/h (155 mph)",
+        "production" : "April 2014 – June 2020",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"5,568 mm (179.8 in)",
+        "width" :"2,352 mm (76.9 in)",
+        "height" : "1,313 mm (47.8 in)",
+        "price" : "12 million usd"
+        
+    },
+    {
+        "img" :"https://gtspirit.com/wp-content/uploads/2015/12/Edo-Competition-Ferrari-488-GTB-3.jpg",
+        "brand" :"Ferrari",
+        "model" : "Ferrari 488 GTB",
+        "description" : "The Ferrari 488 (Type F142M) is a mid-engine sports car produced by the Italian automobile manufacturer Ferrari. The car replaced the 458, being the first mid-engine Ferrari to use a turbocharged V8 since the F40. It was succeeded by the Ferrari F8.",     
+        "accelerat" : "i8 accelerated from 0 to 100 km/h (62 mph) in 5 seconds",
+        "topSpeed" : "350 km/h (155 mph)",
+        "production" : "2015–2019",
+        "class" : "sports car",
+        "bodyStyle" : "2-door berlinetta",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"1,952 mm (76.9 in)",
+        "height" : "1,213 mm (47.8 in)",
+        "price" : "10 million usd"
+
+        
+    },
+    {
+        "img" :"https://www.reezocar.com/660/autoscout24.es/RZCATSESC145FEFF366E/LAMBORGHINI-AVENTADOR-00.jpg",
+        "brand" :"Lamborghini",
+        "model" : " Lamborghini Aventador",
+        "description" : "The Lamborghini Aventador (Spanish pronunciation: [aβentaˈðoɾ]) is a mid-engine sportscar produced by the Italian automotive manufacturer Lamborghini. In keeping with Lamborghini tradition, the Aventador is named after a Spanish fighting bull that fought in Zaragoza, Aragón in 1993.",
+        "topSpeed" : "350 km/h (155 mph)",
+        "production" : "February 2011–2017 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,780 mm (188.2 in)",
+        "width" :"2,030 mm (79.9 in) ",
+        "height" : "1,136 mm (44.7 in)",
+        "price" : "8 million usd"
+        
+    },
+    {
+        "img" :"https://cdn.luxe.digital/media/2020/06/09142443/bugatti-chiron-noire-price-reviews-luxe-digital.jpg",
+        "brand" :"Bugatti",
+        "model" : "Bugatti Veyron EB 16.4",
+        "description" : "The Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and developed in France by the Volkswagen Group and Bugatti and manufactured in Molsheim, France, by French automobile manufacturer Bugatti. It was named after the racing driver Pierre Veyron.",
+        "topSpeed" : "407 km/h (253 mph)",
+        "production" : "2012–2015 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,462 mm (175.7 in)",
+        "width" :"1,998 mm (78.7 in)",
+        "height" : "1,204 mm (47.4 in)",
+        "price" : "15 million usd"
+        
+    }
+]
