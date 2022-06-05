@@ -10,3 +10,18 @@ padding: 10px 20px;
 .offer-title{
     text-transform: uppercase;
 }
+.offer-left{
+    width: 25%;
+    height: 350px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.offer-left-overflow{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 350px;
+}
+.offer-right{
+    width: 75%;
+
+}

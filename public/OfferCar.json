@@ -1,0 +1,54 @@
+[
+    {
+        "img" :"https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?cs=srgb&dl=pexels-jae-park-3764984.jpg&fm=jpg",
+        "brand" :"Rolls-Royce Motor Cars",
+        "model" : "Rolls-Royce Ghost",
+        "description" : "The Rolls-Royce Ghost is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghostnameplate, named in honour of the Silver Ghost, a car first produced in 1906, was announced in April 2009 at the Auto Shanghai show. The production model was officially unveiled at the 2009 Frankfurt Motor Show. ",
+        "topSpeed" : "250 km/h (155 mph)",
+        "production" : "2009–present - 2010–present",
+        "class" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"3,352 mm (76.9 in)",
+        "height" : "1,413 mm (47.8 in)",
+        "mainPrice" : "12 million",
+        "offerPrice" : "10milion",
+        "percentance" : "20%"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Rolls-Royce_Cullinan_Genf_2019_1Y7A5093.jpg/220px-Rolls-Royce_Cullinan_Genf_2019_1Y7A5093.jpg",
+        "brand" :"Rolls-Royce Motor Cars",
+        "model" : "Rolls-Royce Phantom",
+        "description" : "The Rolls-Royce Phantom is a full-sized luxury saloon manufactured by Rolls-Royce Motor Cars. It is the eighth and current generation of the Rolls-Royce Phantom, debuting in 2017, and the second launched by Rolls-Royce under BMW ownership. It is offered in two wheelbase lengths",
+        "topSpeed" : "350 km/h (155 mph)",
+        "production" : "2017–present",
+        "class" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"6,568 mm (179.8 in)",
+        "width" :"4,352 mm (76.9 in)",
+        "height" : "2,413 mm (47.8 in)",
+        "mainPrice" : "10 million",
+        "offerPrice" : "7 milion",
+        "percentance" : "30%"
+
+        
+    },
+    {
+        "img" :"https://i.ytimg.com/vi/6a4AhpFwobU/maxresdefault.jpg",
+        "brand" :"Rolls-Royce Motor Cars",
+        "model" : "Rolls-Royce Ghost",
+        "description" : "TThe Rolls-Royce Cullinan is a full-sized luxury sport utility vehicle (SUV) produced by Rolls-Royce Motor Cars. The Cullinan is the unique SUV launched by Rolls-Royce, and is also the brand's first all-wheel drive vehicle.[4] It is named after the Cullinan Diamond, the largest gem-quality rough diamond ever discovered. ",
+        "topSpeed" : "350 km/h (155 mph)",
+        "production" : "2018–present",
+        "class" : "Full-size luxury car",
+        "bodyStyle" : "5-door SUV",
+        "length" :"5,341 mm (210.3 in)",
+        "width" :"2,164 mm (85.2 in)",
+        "height" : "1,835 mm (72.2 in)",
+        "mainPrice" : "20million",
+        "offerPrice" : "17milion",
+        "percentance" : "25%"
+        
+    }
+]
