@@ -1,0 +1,12 @@
+.offer-header{   
+background: linear-gradient(90deg, rgb(2, 0, 26) 0%, rgb(1, 1, 7) 35%, rgb(1, 23, 27) 100%);
+padding: 10px 20px;
+}
+.line-order{
+    border: 1px solid rgb(250, 185, 21);
+    margin: 5px;
+    width: 30%;
+}
+.offer-title{
+    text-transform: uppercase;
+}

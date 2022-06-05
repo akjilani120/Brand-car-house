@@ -5,7 +5,7 @@ import HomeService from './HomeService';
 import LooksCar from './LooksCar';
 import PopulerCar from './PopulerCar';
 import SpecialCar from './SpecialCar';
-
+import CarOffer from './CarOffer';
 const Home = () => {
     return (
         <div>
@@ -15,6 +15,7 @@ const Home = () => {
            <PopulerCar></PopulerCar>
            <LooksCar></LooksCar>
            <SpecialCar></SpecialCar>
+           <CarOffer></CarOffer>
         </div>
     );
 };
