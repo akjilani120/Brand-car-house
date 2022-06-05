@@ -10,11 +10,16 @@ import Login from './Pages/Login/Login';
 import MyOrder from './Pages/MyOrder/MyOrder';
 import Contact from './Pages/Contact/Contact';
 import Love from './Pages/Love/Love';
+import Tata from './Pages/Home/PopulerCarStore/Tata'
+import HondaMotos from './Pages/Home/PopulerCarStore/HondaMotos'
+import Jac from './Pages/Home/PopulerCarStore/Jac'
+import TOyota from './Pages/Home/PopulerCarStore/TOyota'
+import Mazda from './Pages/Home/PopulerCarStore/Mazda'
+import Volkswagen from './Pages/Home/PopulerCarStore/Volkswagen'
 function App() {
   return (
     
-    <div className="App">
-    
+    <div className="App">    
      <Navbara></Navbara>
     <Routes>
       <Route path='/' element={<Home></Home>}></Route>
@@ -25,6 +30,13 @@ function App() {
       <Route path='/login' element={<Login></Login>}></Route>
       <Route path='/myOrder' element={<MyOrder></MyOrder>}></Route>
       <Route path='/love' element={<Love></Love>}></Route>
+      <Route path='/tata' element={<Tata></Tata>}></Route>
+      <Route path='/hondaMotos' element={<HondaMotos></HondaMotos>}></Route>
+      <Route path='/toyota' element={<TOyota></TOyota>}></Route>
+      <Route path='/mazda' element={<Mazda></Mazda>}></Route>
+      <Route path='/jac' element={<Jac></Jac>}></Route>
+      <Route path='/volkswagen' element={<Volkswagen></Volkswagen>}></Route>
+
     </Routes>
     </div>
   );
