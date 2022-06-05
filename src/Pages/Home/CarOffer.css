@@ -68,3 +68,11 @@ padding: 10px 20px;
     font-size: 14px;
     font-weight: 500;
 }
+@media screen and (max-width:776px) {
+    .offer-right{
+        width: 100%;
+    }
+    .card-main{
+        height: 400px;
+    }
+}

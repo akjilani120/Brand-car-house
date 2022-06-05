@@ -24,14 +24,14 @@ const CarOffer = () => {
             </div>
             <div className=' my-5'>
                 <div className='d-flex '>
-                    <div className='offer-left' style={{ backgroundImage: `url(${bg})` }}>
+                    <div className='offer-left d-none d-lg-block' style={{ backgroundImage: `url(${bg})` }}>
                         <div className='offer-left-overflow text-center pt-5 px-3'>
                             <h3 className='text-warning'>Special Offer</h3>
                             <h1 className='text-white'>Rolls-Royse</h1>
                             <h2 className='text-warning'>Just Fast Select your car</h2>
                         </div>
                     </div>
-                    <div className='offer-right'>
+                    <div className='offer-right text-center '>
                         <Row xs={1} md={2} lg={3} className="g-4">
                             {
                              cars.map(car => <OffCar car ={car} key={car._id}></OffCar>)
