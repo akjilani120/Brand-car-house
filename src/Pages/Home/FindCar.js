@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css'
 import bgimg from '../image/banner/royel-royse.jpg'
 import { Form } from 'react-bootstrap';
-import ScrollAnimation from 'react-animate-on-scroll';
+
 const FindCar = () => {
     return (
         <div className='findcar-main mt-3' style={{ backgroundImage: `url(${bgimg})` }} >
