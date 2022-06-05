@@ -12,7 +12,7 @@ const CarOffer = () => {
         .then(data => setCars(data))
     } ,[cars])
     return (
-        <div className='offer-header'>
+        <div className='offer-header mb-2'>
             <div className='d-flex justify-content-center pt-5 pb-4 align-items-center'>
                 <p className='line-order'></p>
                 <h1 className='text-warning font-bold offer-title'>Special Car Offer</h1>

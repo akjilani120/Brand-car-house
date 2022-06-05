@@ -16,6 +16,10 @@ import Jac from './Pages/Home/PopulerCarStore/Jac'
 import TOyota from './Pages/Home/PopulerCarStore/TOyota'
 import Mazda from './Pages/Home/PopulerCarStore/Mazda'
 import Volkswagen from './Pages/Home/PopulerCarStore/Volkswagen'
+import CatHead from './Pages/Home/Categorious/CatHead';
+import Lamborghini from './Pages/Home/Categorious/Lamborghini';
+import Bmw from './Pages/Home/Categorious/Bmw';
+import Bugati from './Pages/Home/Categorious/Bugati';
 function App() {
   return (
     
@@ -23,7 +27,11 @@ function App() {
      <Navbara></Navbara>
     <Routes>
       <Route path='/' element={<Home></Home>}></Route>
-      <Route path='/home' element={<Home></Home>}></Route>
+      <Route path='/home' element={<Home></Home>}>
+      <Route index element={<Lamborghini></Lamborghini>}></Route>
+        <Route path='bmw' element={<Bmw></Bmw>}></Route>
+        <Route path='bugati' element={<Bugati></Bugati>}></Route>
+      </Route>
       <Route path='/about' element={<About></About>}></Route>
       <Route path='/blog' element={<Blog></Blog>}></Route>
       <Route path='/contact' element={<Contact></Contact>}></Route>
@@ -36,6 +44,10 @@ function App() {
       <Route path='/mazda' element={<Mazda></Mazda>}></Route>
       <Route path='/jac' element={<Jac></Jac>}></Route>
       <Route path='/volkswagen' element={<Volkswagen></Volkswagen>}></Route>
+      <Route path='catHead' element={<CatHead></CatHead>} >
+        
+      </Route>     
+      
 
     </Routes>
     </div>

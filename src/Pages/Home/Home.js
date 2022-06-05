@@ -6,6 +6,7 @@ import LooksCar from './LooksCar';
 import PopulerCar from './PopulerCar';
 import SpecialCar from './SpecialCar';
 import CarOffer from './CarOffer';
+import CatHead from './Categorious/CatHead';
 const Home = () => {
     return (
         <div>
@@ -16,6 +17,7 @@ const Home = () => {
            <LooksCar></LooksCar>
            <SpecialCar></SpecialCar>
            <CarOffer></CarOffer>
+           <CatHead></CatHead>
         </div>
     );
 };
