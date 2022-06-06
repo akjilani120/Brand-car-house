@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Row } from 'react-bootstrap';
+
 import specialBg from '../image/spcial-bg/specialbg.jpg'
 import './specialCar.css'
 import SpecialCarSub from './SpecialCarSub';

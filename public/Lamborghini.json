@@ -1,0 +1,92 @@
+[
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Lamborghini_Revent%C3%B3n.jpg/280px-Lamborghini_Revent%C3%B3n.jpg",
+        "brand" :"Lamborghini",
+        "model" : " Lamborghini Reventón",
+        "description" : "The Lamborghini Reventón  is a mid-engine sports car that debuted at the 2007 Frankfurt Motor Show.[1] Its top speed is 340 km/h (210 mph).[2] The official press release stated that only 20 vehicles would be sold to the public,[3] with one additional car (marked as 00/20) produced for the Lamborghini museum.",
+        "topSpeed" : "350 km/h (155 mph)",
+        "production" : "February 2011–2017 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,700 mm (185.0 in)",
+        "width" :"2,058 mm (81.0 in) ",
+        "height" : "1,135 mm (44.7 in)",
+        "price" : "7 million usd"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Lamborghini_Sesto_Elemento_4.JPG/280px-Lamborghini_Sesto_Elemento_4.JPG",
+        "brand" :"Lamborghini",
+        "model" : " Lamborghini Sesto Elemento",
+        "description" : "The Lamborghini Sesto Elemento  is a high-performance limited edition track car produced by the Italian autmobile manufacturer Lamborghini, which debuted at the 2010 Paris Motor Show..",
+        "topSpeed" : "350 km/h (155 mph)",
+        "production" : "February 2011–2017 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,580 mm (180.3 in)",
+        "width" :"2,045 mm (80.5 in) ",
+        "height" : "1,135 mm (44.7 in)",
+        "price" : "5 million usd"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg/280px-Geneva_MotorShow_2013_-_Lamborghini_Veneno_1.jpg",
+        "brand" :"Lamborghini",
+        "model" : "Lamborghini Veneno",
+        "description" : "The Lamborghini Veneno (Spanish pronunciation: [beˈneno]) is a limited production high performance sports car manufactured by Italian automobile manufacturer Lamborghini. Based on the Lamborghini Aventador, the Veneno was developed to celebrate Lamborghini's 50th anniversary. It was introduced at the 2013 Geneva Motor Show.",
+        "topSpeed" : "450 km/h (155 mph)",
+        "production" : "2013–2014 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"5,020 mm (197.6 in)",
+        "width" :"2,075 mm (81.7 in)",
+        "height" : "1,165 mm (45.9 in)",
+        "price" : "9 million usd"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2016-03-01_Geneva_Motor_Show_0789_%28cropped%29.JPG/280px-2016-03-01_Geneva_Motor_Show_0789_%28cropped%29.JPG",
+        "brand" :"Lamborghini",
+        "model" : "Lamborghini Centenario",
+        "description" : "The Lamborghini Centenario (Italian pronunciation: ; Spanish: ) is a limited production sports car based on the Lamborghini Aventador which was unveiled at the 2016 Geneva Motor Show to commemorate the 100th birthday of the company's founder, Ferruccio Lamborghini",
+        "topSpeed" : "250 km/h (155 mph)",
+        "production" : "2016–2017 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,924 mm (193.9 in)",
+        "width" :"2,062 mm (81.2 in)",
+        "height" : "1,143 mm (45.0 in)",
+        "price" : "11 million usd"
+        
+    },
+    {
+        "img" :"https://www.lambocars.com/wp-content/uploads/2020/11/lamborghini_sc18_alston_1.jpg",
+        "brand" :"Lamborghini",
+        "model" : " Lamborghini Reventón",
+        "description" : "Lamborghini Squadra Corse unveils the SC18 Alston, the first one-off in the history of the Sant' Agata Bolognese motorsport division. The unique example, designed in synergy with the customer and Centro Stile Lamborghini, is road approved but designed primarily for use on the track.",
+        "topSpeed" : "550 km/h (155 mph)",
+        "production" : "February 2011–2017 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"5,700 mm (185.0 in)",
+        "width" :"2,058 mm (81.0 in) ",
+        "height" : "2,135 mm (44.7 in)",
+        "price" : "13 million usd"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/1/15/Lamborghini_Si%C3%A1n_%2848783332087%29.jpg",
+        "brand" :"Lamborghini",
+        "model" : " Lamborghini Sián",
+        "description" : "The Lamborghini Reventón  is a mid-engine sports car that debuted at the 2007 Frankfurt Motor Show.[1] Its top speed is 340 km/h (210 mph).[2] The official press release stated that only 20 vehicles would be sold to the public,[3] with one additional car (marked as 00/20) produced for the Lamborghini museum.",
+        "topSpeed" : "650 km/h (155 mph)",
+        "production" : "2020 ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,700 mm (185.0 in)",
+        "width" :"2,058 mm (81.0 in) ",
+        "height" : "1,135 mm (44.7 in)",
+        "price" : "15 million usd"
+        
+    }
+]

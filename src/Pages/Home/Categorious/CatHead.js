@@ -1,12 +1,21 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import {  Outlet } from 'react-router-dom';
+import CustomLink from '../../Hooks/CustomLink';
 import './CatHead.css'
 const CatHead = () => {
     return (
-        <div className='categorious-head'>
-            <h>I am categorious</h>
-            <di><Link to="/home">Lamborghini</Link> <Link to="/home/bmw">BMW</Link> <Link to="/home/bugati">Lamborghini</Link>  </di>
-            <div>
+        <div className='categorious-head py-5'>           
+          
+            <div className='d-flex justify-content-center align-items-center'>
+                <p className='line-order cate-line'></p>
+                <h5 className='text-warning font-bold cate-list'>
+                    <span  className='cate-items mx-2' ><CustomLink to="/home">Lamborghini</CustomLink></span>
+                     <span  className='cate-items mx-2' > <CustomLink to="/home/bugati">Vugatti</CustomLink></span>
+                      <span className='cate-items mx-2'  ><CustomLink to="/home/bmw">BMW</CustomLink></span>
+                     </h5>
+                <p className='line-order cate-line'></p>
+            </div>
+            <div className='mt-3 px-3 '>
                 <Outlet></Outlet>
             </div>
         </div>
