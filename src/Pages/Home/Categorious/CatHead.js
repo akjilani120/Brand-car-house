@@ -10,7 +10,7 @@ const CatHead = () => {
                 <p className='line-order cate-line'></p>
                 <h5 className='text-warning font-bold cate-list'>
                     <span  className='cate-items mx-2' ><CustomLink to="/home">Lamborghini</CustomLink></span>
-                     <span  className='cate-items mx-2' > <CustomLink to="/home/bugati">Vugatti</CustomLink></span>
+                     <span  className='cate-items mx-2' > <CustomLink to="/home/bugati">Bugatti</CustomLink></span>
                       <span className='cate-items mx-2'  ><CustomLink to="/home/bmw">BMW</CustomLink></span>
                      </h5>
                 <p className='line-order cate-line'></p>

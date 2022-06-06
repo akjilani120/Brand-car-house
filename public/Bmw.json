@@ -1,0 +1,47 @@
+[
+    {
+        "img" :"https://www.carmodelslist.com/wp-content/uploads/2012/04/BMW-5-Series-Sedan-car-model.jpg",
+        "brand" :"BMW",
+        "model" : "BMW 5 Series",
+        "description" : "The BMW 5 Series Sedan line of vehicle features only the best in the iconic BMW looks. Built to perform with its aerodynamic curves, the car’s interior is also apt to impress: Nappa leather brings about an exquisite taste that only the finest of motorists are to appreciate.",
+        "topSpeed" : "250 km/h (155 mph)",
+        "production" : "2019-2020 ",
+        "class" : "sports car",
+        "bodyStyle" : "4-door coupé",
+        "length" :"5,700 mm (185.0 in)",
+        "width" :"3,058 mm (81.0 in) ",
+        "height" : "2,135 mm (44.7 in)",
+        "price" : "8 million usd"
+        
+    },
+    {
+        "img" :"https://www.carmodelslist.com/wp-content/uploads/2012/04/BMW-7-Series-Sedan-car-model.jpg",
+        "brand" :"BMW",
+        "model" : "BMW 7 Series",
+        "description" : "Whether behind the wheel or enjoying the view from the rear seats, the BMW 7 Series Sedan offers quality and top comfort. Featuring impressive and spacious legroom and massage chair features, each ride is definitely a wonderful trip to anywhere a driver desires.",
+        "topSpeed" : "550 km/h (155 mph)",
+        "production" : "February 2021–2018 ",
+        "class" : "sports car",
+        "bodyStyle" : "4-door coupé",
+        "length" :"3,700 mm (185.0 in)",
+        "width" :"1,058 mm (81.0 in) ",
+        "height" : "1,235 mm (44.7 in)",
+        "price" : "6 million usd"
+        
+    },
+    {
+        "img" :"https://www.carmodelslist.com/wp-content/uploads/2012/04/BMW-X1.jpg",
+        "brand" :"BMW",
+        "model" : "BMW x1",
+        "description" : "Elegance and high-motoring performance are some exciting aspects motorists can expect from the BMW X1. Definitely a fine example of what a luxury SUV should be, this is a vehicle that holds no punches in delivering driver and passenger satisfaction.",
+        "topSpeed" : "250 km/h (155 mph)",
+        "production" : "February 2021–2018 ",
+        "class" : "sports car",
+        "bodyStyle" : "4-door coupé",
+        "length" :"2,700 mm (185.0 in)",
+        "width" :"1,058 mm (81.0 in) ",
+        "height" : "2,235 mm (44.7 in)",
+        "price" : "5 million usd"
+        
+    }
+]

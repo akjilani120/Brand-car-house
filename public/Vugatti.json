@@ -1,0 +1,62 @@
+[
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Red_Bugatti_Veyron_on_the_road_%287559997596%29.jpg/280px-Red_Bugatti_Veyron_on_the_road_%287559997596%29.jpg",
+        "brand" :"Bugatti",
+        "model" : "Bugati Veyron",
+        "description" : "The Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and developed in France by the Volkswagen Group and Bugatti and manufactured in Molsheim, France, by French automobile manufacturer Bugatti. It was named after the racing driver Pierre Veyron.",
+        "topSpeed" : "450 km/h (155 mph)",
+        "production" : "2012–2015  ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,462 mm (175.7 in)",
+        "width" :"1,998 mm (78.7 in) ",
+        "height" : "1,204 mm (47.4 in)",
+        "price" : "8 million usd"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bugatti_Chiron_%2836559710091%29.jpg/280px-Bugatti_Chiron_%2836559710091%29.jpg",
+        "brand" :"Bugatti",
+        "model" : "Bugati Chiron",
+        "description" : "The Bugatti Chiron is a mid-engine two-seater sports car designed and developed in Germany by Bugatti Engineering GmbH[7] and manufactured in Molsheim, France, by French automobile manufacturer Bugatti Automobiles S.A.S. The successor to the Bugatti Veyron",
+        "topSpeed" : "550 km/h (155 mph)",
+        "production" : "2016–2022",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,544 mm (178.9 in)",
+        "width" :"2,038 mm (80.2 in) ",
+        "height" : "1,212 mm (47.7 in)",
+        "price" : "11 million usd"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bugatti_Divo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0029%29.jpg/280px-Bugatti_Divo%2C_GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0029%29.jpg",
+        "brand" :"Bugatti",
+        "model" : "Bugati Divo",
+        "description" : "The Bugatti Divo is a mid-engine track-focused sports car developed and manufactured by Bugatti Automobiles S.A.S. The car is named after French racing driver Albert Divo, who raced for Bugatti in the 1920s winning the Targa Florio race twice",
+        "topSpeed" : "450 km/h (155 mph)",
+        "production" : "2019–2021",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,641 mm (182.7 in)",
+        "width" :"2,018 mm (79.4 in) ",
+        "height" : "1,212 mm (47.7 in)",
+        "price" : "15 million usd"
+        
+    },
+    {
+        "img" :"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bugatti_Centodieci_side.png/280px-Bugatti_Centodieci_side.png",
+        "brand" :"Bugatti",
+        "model" : "BugatiCentodiece",
+        "description" : "The Bugatti Centodieci [2] is a limited production mid-engine sports car produced by French automotive manufacturer BugattiThe car is an homage to the Bugatti EB110 and a celebration of the Bugatti marque's 110th birthday. The Centodieci is 20 kg lighter than the Bugatti Chiron, and has a 8,000 cc (8.0 L; 488.2 cu in) . ",
+        "topSpeed" : "650 km/h (155 mph)",
+        "production" : "2020–present  ",
+        "class" : "sports car",
+        "bodyStyle" : "2-door coupé",
+        "length" :"4,544 mm (178.9 in)",
+        "width" :"2,038 mm (80.2 in)",
+        "height" : "1,212 mm (47.7 in)",
+        "price" : "20 million usd"
+        
+    }
+]
