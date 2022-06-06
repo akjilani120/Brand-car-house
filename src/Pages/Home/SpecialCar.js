@@ -6,7 +6,7 @@ import SpecialCarSub from './SpecialCarSub';
 const SpecialCar = () => {
     const [cars, setCars] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/specialCar")
+        fetch("https://powerful-falls-58401.herokuapp.com/specialCar")
             .then(res => res.json())
             .then(data => setCars(data))
     }, [cars])

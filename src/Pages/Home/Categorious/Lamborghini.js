@@ -6,7 +6,7 @@ import LamborCar from './LamborCar';
 const Lamborghini = () => {
     const [lamborghinis, setLamborghinis] = useState([])
     useEffect(() => {
-        fetch("http://localhost:5000/lamborghini")
+        fetch("https://powerful-falls-58401.herokuapp.com/lamborghini")
             .then(res => res.json())
             .then(data => setLamborghinis(data))
     }, [lamborghinis])

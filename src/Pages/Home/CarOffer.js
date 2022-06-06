@@ -7,7 +7,7 @@ import OffCar from './OffCar';
 const CarOffer = () => {
     const [cars , setCars] = useState([])
     useEffect(() =>{
-        fetch("http://localhost:5000/offerCar")
+        fetch("https://powerful-falls-58401.herokuapp.com/offerCar")
         .then(res => res.json())
         .then(data => setCars(data))
     } ,[cars])
