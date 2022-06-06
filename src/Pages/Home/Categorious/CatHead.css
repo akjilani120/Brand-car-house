@@ -14,3 +14,14 @@
     display: flex;
     text-transform: uppercase;
 }
+.lam-card{
+    height: 280px;
+    position: relative;
+}
+.lam-img{
+    height: 150px;
+}
+.lam-car-footer{
+    position: absolute;
+    bottom: 5px;
+}
