@@ -20,17 +20,20 @@ import CatHead from './Pages/Home/Categorious/CatHead';
 import Lamborghini from './Pages/Home/Categorious/Lamborghini';
 import Bmw from './Pages/Home/Categorious/Bmw';
 import Bugati from './Pages/Home/Categorious/Bugati';
+import Footer from './Pages/Footer/Footer';
 function App() {
   return (
     
     <div className="App">    
      <Navbara></Navbara>
     <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
-      <Route path='/home' element={<Home></Home>}>
+      <Route path='/' element={<Home></Home>}>
       <Route index element={<Lamborghini></Lamborghini>}></Route>
         <Route path='bmw' element={<Bmw></Bmw>}></Route>
-        <Route path='bugati' element={<Bugati></Bugati>}></Route>
+        <Route path='bugatti' element={<Bugati></Bugati>}></Route>
+      </Route>
+      <Route path='/home' element={<Home></Home>}>
+      
       </Route>
       <Route path='/about' element={<About></About>}></Route>
       <Route path='/blog' element={<Blog></Blog>}></Route>
@@ -44,12 +47,10 @@ function App() {
       <Route path='/mazda' element={<Mazda></Mazda>}></Route>
       <Route path='/jac' element={<Jac></Jac>}></Route>
       <Route path='/volkswagen' element={<Volkswagen></Volkswagen>}></Route>
-      <Route path='catHead' element={<CatHead></CatHead>} >
-        
-      </Route>     
-      
-
+      <Route path='catHead' element={<CatHead></CatHead>} >        
+      </Route>          
     </Routes>
+    <Footer></Footer>
     </div>
   );
 }

@@ -61,7 +61,7 @@
     margin-top: 10px;
 }
 .populer-car{
-    background-color: black;
+    background: linear-gradient(90deg, rgb(2, 0, 26) 0%, rgb(1, 1, 7) 35%, rgb(1, 23, 27) 100%);
     color: white;
     padding-top: 20px;
 }
