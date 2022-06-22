@@ -37,9 +37,7 @@ function App() {
         <Route path='bmw' element={<Bmw></Bmw>}></Route>
         <Route path='bugatti' element={<Bugati></Bugati>}></Route>
       </Route>
-      <Route path='/home' element={<Home></Home>}>
       
-      </Route>
       <Route path='/about' element={<About></About>}></Route>
       <Route path='/blog' element={<Blog></Blog>}></Route>
       <Route path='/contact' element={<Contact></Contact>}></Route>
