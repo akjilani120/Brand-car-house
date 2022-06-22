@@ -26,11 +26,11 @@ const PopulerCar = () => {
         <div className='populer-car mt-2 pb-5'>
             <div className='container'>
                 <h1 className='my-5 text-uppercase'>-Populer Categorious</h1>
-                <Row xs={1} md={2} lg={3} className="g-4">
+                <Row xs={1} md={2} lg={2} className="g-4">
                     <Col className='my-3 card-col'>
                         <div className='d-flex justify-content-center mx-2 car-items-head ' >
                             <div className='car-about'>
-                                <p>Car Name : Corolla Altis Hybrid</p>
+                                <h6>Car Name : Corolla Altis Hybrid</h6>
                                 <ul>
                                     <li>Company Name : TOYOTA</li>
                                     <li>Car Conditon : New</li>
@@ -45,7 +45,7 @@ const PopulerCar = () => {
                     <Col className='my-3 card-col'>
                         <div className='d-flex justify-content-center mx-2 car-items-head ' >
                             <div className='car-about'>
-                                <p>Car Name : Honda Motor Series j</p>
+                                <h6>Car Name : Honda Motor Series j</h6>
                                 <ul>
                                     <li>Company Name : HONDA MOTOS</li>
                                     <li>Car Conditon : New </li>
@@ -75,7 +75,7 @@ const PopulerCar = () => {
                     <Col className='my-3 card-col'>
                         <div className='d-flex justify-content-center mx-2 car-items-head ' >
                             <div className='car-about'>
-                                <p>Car Name : Tata Businnes vertical series</p>
+                                <h6>Car Name : Tata Businnes vertical series</h6>
                                 <ul>
                                     <li>Company Name : TATA</li>
                                     <li>Car Conditon : New</li>
@@ -90,7 +90,7 @@ const PopulerCar = () => {
                     <Col className='my-3 card-col'>
                         <div className='d-flex justify-content-center mx-2 car-items-head ' >
                             <div className='car-about'>
-                                <p>Car Name : Mazda MAZDA6</p>
+                                <h6>Car Name : Mazda MAZDA6</h6>
                                 <ul>
                                     <li>Company Name : Mazda</li>
                                     <li>Car Conditon : New </li>
@@ -105,7 +105,7 @@ const PopulerCar = () => {
                     <Col className='my-3 card-col'>
                         <div className='d-flex justify-content-center mx-2 car-items-head ' >
                             <div className='car-about'>
-                                <p>Car Name : JAC series j 2022</p>
+                                <h6>Car Name : JAC series j 2022</h6>
                                 <ul>
                                     <li>Company Name : JAC</li>
                                     <li>Car Conditon : New</li>

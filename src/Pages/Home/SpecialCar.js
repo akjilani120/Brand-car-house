@@ -10,7 +10,7 @@ const SpecialCar = () => {
             .then(res => res.json())
             .then(data => setCars(data))
     }, [cars])
-    console.log(cars)
+    
     return (
         <div className='spe-header' style={{ backgroundImage: `url(${specialBg})` }}>
             <div className='spe-overflow'>

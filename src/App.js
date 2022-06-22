@@ -21,6 +21,7 @@ import Lamborghini from './Pages/Home/Categorious/Lamborghini';
 import Bmw from './Pages/Home/Categorious/Bmw';
 import Bugati from './Pages/Home/Categorious/Bugati';
 import Footer from './Pages/Footer/Footer';
+import SignUp from './Pages/Login/SignUp';
 function App() {
   return (
     
@@ -47,8 +48,8 @@ function App() {
       <Route path='/mazda' element={<Mazda></Mazda>}></Route>
       <Route path='/jac' element={<Jac></Jac>}></Route>
       <Route path='/volkswagen' element={<Volkswagen></Volkswagen>}></Route>
-      <Route path='catHead' element={<CatHead></CatHead>} >        
-      </Route>          
+      <Route path='catHead' element={<CatHead></CatHead>} > </Route>      
+      <Route path='/signup' element={<SignUp></SignUp>}></Route>
     </Routes>
     <Footer></Footer>
     </div>

@@ -17,9 +17,15 @@
 .lam-card{
     height: 280px;
     position: relative;
+    overflow: hidden;
+    
+}
+.lam-card:hover .lam-img{
+ transform: scale(1.1);
 }
 .lam-img{
     height: 150px;
+    transition: 600ms;
 }
 .lam-car-footer{
     position: absolute;
