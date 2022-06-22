@@ -22,10 +22,13 @@ import Bmw from './Pages/Home/Categorious/Bmw';
 import Bugati from './Pages/Home/Categorious/Bugati';
 import Footer from './Pages/Footer/Footer';
 import SignUp from './Pages/Login/SignUp';
+import SpecialCarDetails from './Pages/Home/SpecialCar-details/SpecialCarDetails';
+import NavbarHeader from './Pages/Navbar/NavbarHeader';
 function App() {
   return (
     
-    <div className="App">    
+    <div className="App">
+      <NavbarHeader></NavbarHeader>    
      <Navbara></Navbara>
     <Routes>
       <Route path='/' element={<Home></Home>}>
@@ -50,6 +53,7 @@ function App() {
       <Route path='/volkswagen' element={<Volkswagen></Volkswagen>}></Route>
       <Route path='catHead' element={<CatHead></CatHead>} > </Route>      
       <Route path='/signup' element={<SignUp></SignUp>}></Route>
+      <Route path='/specialDetails/:id' element={<SpecialCarDetails></SpecialCarDetails>}></Route>
     </Routes>
     <Footer></Footer>
     </div>

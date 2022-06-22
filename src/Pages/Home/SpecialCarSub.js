@@ -1,8 +1,7 @@
 import React from 'react';
+const SpecialCarSub = ({ car, hanldeDetails }) => {
 
-
-const SpecialCarSub = ({ car }) => {
-    const {img, model, price, description, brand} = car
+    const {img, model, price, description, brand,  _id} = car
     return (
             <div className=' d-flex  mx-auto '>
                  <div className='spe-items'>
@@ -14,7 +13,7 @@ const SpecialCarSub = ({ car }) => {
                     </div>
                     <h5>Brand Name : {brand}</h5>
                     <p><b>Short Discription</b> : {description.slice(0, 120)}</p>
-                    <div className=''><button className='spe-details-btn btn btn-warning'>about Details</button></div>
+                    <div className=''><button onClick={()=>hanldeDetails(_id)} className='spe-details-btn btn btn-warning'>about Details</button></div>
                  </div>
                 </div>
                
