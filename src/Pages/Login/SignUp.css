@@ -10,7 +10,7 @@
 }
 .sign-model{
     width: 55%;
-    height: 500px;
+   
     background-color: rgba(7, 12, 58, 0.87);
     margin: 50px 0px;
     border-radius: 10px;
@@ -50,5 +50,35 @@
     color: rgb(148, 49, 6);
 }
 .input-items{
-    margin-bottom:60px ;
+    margin-bottom:50px ;
+}
+.border-pera{
+    border: 1px solid  rgb(255, 185, 7);
+    margin: 10px;
+    width: 40%;
+}
+.google-logo{
+    height: 22px ;
+    width: 50px;
+}
+.google-account{
+    padding: 5px 0px;
+    height: 45px;
+    background-color:rgb(255, 185, 7) ;
+    width: 60%;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.google-account p{
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.google-account:hover{
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(255, 185, 7);
+}
+.submit-btn:hover{
+    background-color: rgb(29, 31, 51);
 }
