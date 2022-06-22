@@ -1,46 +1,58 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import bgImg from '../image/loginBg.jpg';
+import google from '../image/google.png'
+import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
+import IsLoading from '../Hooks/IsLoading';
 const Login = () => {
-    const navigate = useNavigate()
-    const handleNavigate =() =>{
-        navigate("/signup")
+    const [
+        signInWithEmailAndPassword,
+        user,
+        userLoading,
+        userError,
+      ] = useSignInWithEmailAndPassword(auth);
+      const [signInWithGoogle, guser, gloading, gerror] = useSignInWithGoogle(auth);
+    const handleSubmit =(event) =>{
+        event.preventDefault()
+        const email = event.target.email.value
+        const password = event.target.password.value
+        signInWithEmailAndPassword(email, password)
+    }
+    const handleGoogle =() =>{
+        signInWithGoogle()
+     }
+    let showErro ;
+    if(userLoading){
+        return <IsLoading></IsLoading>
+    }
+    if(userError){
+        showErro= userError.message
     }
     return (
         <div className='sign-header' style={{ backgroundImage: `url(${bgImg})` }}>
             <div className='sign-overflow d-flex justify-content-center align-items-center'>
                 <div className='sign-model'>
-                    <h3 className='text-center signUp-title '>Please Sign Up </h3>
+                    <h3 className='text-center signUp-title '>Please Login </h3>
                     <div className='form-head'>
-                        <form onSubmit={handleSubmit(onSubmit)}>
-
-                            <div className='input-items'>                             
-                            <input type="text"  placeholder='Name' {...register("name", { required: true })} />
-                            <p className='text-danger text-start my-0 p-0  mx-auto w-75'>{errors.name?.type === 'required' && "Name is required"}</p>
-                            </div>
-                            <div className='input-items'>  
-                                                       
-                            <input type="text"  placeholder='Profile Image Link' {...register("image", { required: false })} />
-                           
-                            </div>
-
+                        <form onSubmit={handleSubmit}>                         
+                            
                            <div className='input-items '>                            
-                           <input type="email"  placeholder='Email' {...register("email", { required: true })} />
-                            <p className='text-danger text-start  my-0 p-0 mx-auto w-75'>{errors.email && "Email  is required"}</p>
+                           <input type="email"  placeholder='Email' name='email' required />
+                          
                            </div>
 
-                              <div className='input-items mb-3'>
+                              <div className='input-items '>
                                 
-                              <input type="password" placeholder='Password' {...register("password", { required: true , minLength:6 , maxLength: 13 })} />
-                              <p className='text-danger text-start my-0 p-0  mx-auto w-75'> {errors.password?.type === 'required' && "Password is required"} </p>
-                              <p className='text-danger text-start my-0 p-0  mx-auto w-75'> {errors.password?.type === 'minLength' && "Password is minimumLenght 6"} </p>
-                              <p className='text-danger text-start my-0 p-0  mx-auto w-75'> {errors.password?.type === 'maxLength' && "Password is maxLenght 13"} </p>
-                            
+                              <input type="password" placeholder='Password' name='password' required />
+                              
                              
                               </div>
-                              <h6 className='text-white text-start w-75 mx-auto'>If You have account <Link to='/login' className="text-warning fw-bold ms-3" >Login </Link> </h6>
-                              <h6 className='text-white text-start w-75 mx-auto' >{showErro}</h6>
-                            <input className='btn btn-warning px-5 py-2 text-white fw-bold mb-4 mt-4 submit-btn' type="submit" value="Sign In" />
+                              <h6 className='text-white text-start w-75 mx-auto'>If You have account <Link to='/signup' className="text-warning fw-bold ms-3" >Sign Up </Link> </h6>
+                              <h6 className='text-white text-start w-75 mx-auto'>If Forget Password <span className="text-warning  ms-3" style={{cursor:"pointer", textDecoration:"underline"}} >Remember Password </span> </h6>
+
+                              <h6 className='text-danger text-start w-75 mx-auto' >{showErro}</h6>
+                            <input className='btn btn-warning px-5 py-2 text-white fw-bold mb-4 mt-4 submit-btn' type="submit" value="Login" />
                         </form>
                     </div>
                     <div className='d-flex justify-content-center align-items-center '>
@@ -49,7 +61,7 @@ const Login = () => {
                         <p className='border-pera'></p>
                     </div>
                     <div className='my-4'>
-                    <p className='d-flex justify-content-center align-items-center mt-2 google-account   mx-auto'><img className='google-logo ' src={google}></img>
+                    <p onClick={handleGoogle} className='d-flex justify-content-center align-items-center mt-2 google-account   mx-auto'><img className='google-logo ' src={google}></img>
                     <p className=' ms-4   '>Google account</p>
                     </p>
                     </div>

@@ -4,9 +4,8 @@ import bgImg from '../image/bgimg.jpg';
 import google from '../image/google.png'
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
-import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
-import auth from '../../firebase.init'
-import { async } from '@firebase/util';
+import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
 import IsLoading from '../Hooks/IsLoading';
 const SignUp = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
@@ -16,21 +15,26 @@ const SignUp = () => {
         uerLoading,
         userError,
       ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
+      const [signInWithGoogle, guser, gloading, gerror] = useSignInWithGoogle(auth);
       const [updateProfile, updating, error] = useUpdateProfile(auth);
     const onSubmit = async( data) => {
         const email = data.email
         const password = data.password
         const displayName = data.name
         const photoURL = data.image
-        await createUserWithEmailAndPassword(email , password)
-           updateProfile({ displayName, photoURL });
+        await createUserWithEmailAndPassword(email , password)        
+        await updateProfile({ displayName, photoURL });
+     }
+     console.log(user)
+     const handleGoogle =() =>{
+        signInWithGoogle()
      }
      let showErro;
-     if(uerLoading){
-        return <IsLoading></IsLoading>
-     }
-     if(userError){
-        showErro = userError.message
+    //  if(uerLoading || gloading){
+    //     return <IsLoading></IsLoading>
+    //  }
+     if(userError || gerror || error){
+        showErro = userError.message || gerror.message || error.message
      }
     return (
         <div className='sign-header' style={{ backgroundImage: `url(${bgImg})` }}>
@@ -75,7 +79,7 @@ const SignUp = () => {
                         <p className='border-pera'></p>
                     </div>
                     <div className='my-4'>
-                    <p className='d-flex justify-content-center align-items-center mt-2 google-account   mx-auto'><img className='google-logo ' src={google}></img>
+                    <p onClick={handleGoogle} className='d-flex justify-content-center align-items-center mt-2 google-account   mx-auto'><img className='google-logo ' src={google}></img>
                     <p className=' ms-4   '>Google account</p>
                     </p>
                     </div>
