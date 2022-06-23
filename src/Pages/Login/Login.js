@@ -7,10 +7,11 @@ import auth from '../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import IsLoading from '../Hooks/IsLoading';
+import CustomUser from '../Hooks/CustomUser';
 const Login = () => {
     const [
         signInWithEmailAndPassword,
-        user,
+        eUser,
         userLoading,
         userError,
       ] = useSignInWithEmailAndPassword(auth);
@@ -31,11 +32,9 @@ const Login = () => {
     const handleGoogle =() =>{
         signInWithGoogle()
     };
-   
+    const [addUser] = CustomUser(eUser || guser)
     let showErro ;
-    // if(userLoading){
-    //     return <IsLoading></IsLoading>
-    // }
+    
     if(userError || gerror){
         showErro= userError.message || gerror.message
     }

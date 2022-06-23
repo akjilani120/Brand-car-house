@@ -7,11 +7,12 @@ import { Link } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import IsLoading from '../Hooks/IsLoading';
+import CustomUser from '../Hooks/CustomUser';
 const SignUp = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
     const [
         createUserWithEmailAndPassword,
-        user,
+        eUser,
         uerLoading,
         userError,
       ] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification:true});
@@ -24,15 +25,13 @@ const SignUp = () => {
         const photoURL = data.image
         await createUserWithEmailAndPassword(email , password)        
         await updateProfile({ displayName, photoURL });
-     }
-     console.log(user)
+     }   
      const handleGoogle =() =>{
         signInWithGoogle()
      }
+     const [addUser] = CustomUser(eUser || guser)
      let showErro;
-    //  if(uerLoading || gloading){
-    //     return <IsLoading></IsLoading>
-    //  }
+   
      if(userError || gerror || error){
         showErro = userError.message || gerror.message || error.message
      }
