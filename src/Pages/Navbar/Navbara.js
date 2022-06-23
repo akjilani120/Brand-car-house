@@ -42,6 +42,7 @@ const Navbara = () => {
                             <div className='logout-details'>
                                 <ul>
                                     <Link className='view-profile' to="/profile"> <li >View Profile</li></Link>
+                                    <Link className='view-profile' to="/myOrder"> <li >My Order</li></Link>
                                      <li onClick={logOut}> Log Out</li>
                                 </ul>
                             </div>
