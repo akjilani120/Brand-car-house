@@ -3,7 +3,7 @@ import './SignUp.css'
 import bgImg from '../image/bgimg.jpg';
 import google from '../image/google.png'
 import { useForm } from "react-hook-form";
-import { Link } from 'react-router-dom';
+import { Link , useNavigate} from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import IsLoading from '../Hooks/IsLoading';
@@ -30,8 +30,11 @@ const SignUp = () => {
         signInWithGoogle()
      }
      const [addUser] = CustomUser(eUser || guser)
+     const navigate = useNavigate()
      let showErro;
-   
+     if(addUser){
+        navigate("/")
+     }
      if(userError || gerror || error){
         showErro = userError.message || gerror.message || error.message
      }

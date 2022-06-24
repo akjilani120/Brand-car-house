@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 const CustomUser = (user) => {
     const [addUser , setAddUser] = useState("");
-    const email = user?.user?.email
+    const email = user?.user?.email;
+    
    if(email){   
     const currentEmail = {
         email : email
@@ -15,7 +16,15 @@ const CustomUser = (user) => {
         body : JSON.stringify(currentEmail)
      })
      .then(res => res.json())
-     .then(data => console.log(data))
+     .then(data => {
+        const accessToken = data?.token
+       
+        if(accessToken){
+           
+            localStorage.setItem("accessToken" , accessToken)            
+        }
+        setAddUser(data)
+    })
      
    }   
 

@@ -14,6 +14,7 @@ const Navbara = () => {
     
     const logOut =() =>{
         signOut(auth)
+        localStorage.removeItem("accessToken")
     }
     
     return (
