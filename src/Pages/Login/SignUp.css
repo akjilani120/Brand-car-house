@@ -82,3 +82,8 @@
 .submit-btn:hover{
     background-color: rgb(29, 31, 51);
 }
+@media screen and (max-width:765px) {
+    .sign-model{
+        width: 95%;
+    }
+}

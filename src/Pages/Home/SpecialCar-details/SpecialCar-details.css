@@ -3,3 +3,84 @@
     padding: 5px;
     margin-top: 10px;
 }
+.magnifi-img{
+    z-index: 1;
+}
+.main-details{
+    color: rgb(121, 106, 106);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+.car-about{
+    box-shadow: -10px 20px 20px rgb(207, 204, 204);
+    border-radius: 8px;
+}
+.count-number{
+    width: 10%;
+    border: 1px solid rgb(3, 3, 26);
+    font-size: 18px;
+    text-align: center;
+    height: 38px;
+   margin-top: 15px;
+}
+.count-btn{
+    font-size: 24px; 
+    height: 40px;
+    text-align: center;
+    line-height: 16px;
+    font-weight: bold;   
+    
+}
+.price-container{
+    display: flex;
+    justify-content: space-around;   
+    
+   
+}
+.add-cart{
+    padding: 10px 0px;
+    font-size: 22px;
+    background-color: rgb(9, 99, 134);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 55px;
+}
+.add-cart:hover{
+    background-color: black;
+
+}
+.add-price{
+    font-size: 30px;
+    padding: 5px 10px;
+    height: 55px;
+    background-color: rgb(243, 118, 44);
+    position: relative;
+    color: white;
+   
+}
+.add-price::after{
+    content: "";
+    width: 50px;
+    height:55px ;
+    position: absolute;
+    top: 0;
+    
+    display: inline-block;
+    content: "";
+    border-color: #ff9900 transparent;
+    border-style: solid;
+    right: -30px;
+    border-width: 28px 18px;
+    
+}
+/* .add-price:hover{
+    background-color: rgb(9, 99, 134);
+    border-radius: 5px;
+    color: white;
+
+} */
+.price-container{
+   
+
+}
