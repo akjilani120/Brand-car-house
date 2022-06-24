@@ -1,7 +1,11 @@
 import React from 'react';
-const SpecialCarSub = ({ car, hanldeDetails }) => {
-
+import { useNavigate } from 'react-router-dom';
+const SpecialCarSub = ({ car }) => {
+   const navigate = useNavigate()
     const {img, model, price, description, brand,  _id} = car
+    const hanldeDetails = (id) =>{
+      navigate(`/specialDetails/${id}`)
+   }
     return (
             <div className=' d-flex  mx-auto '>
                  <div className='spe-items'>

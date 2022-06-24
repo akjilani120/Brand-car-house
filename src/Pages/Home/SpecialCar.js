@@ -12,9 +12,7 @@ const SpecialCar = () => {
             .then(res => res.json())
             .then(data => setCars(data))
     }, [cars])
-    const hanldeDetails = (id) =>{
-       navigate(`/specialDetails/:${id}`)
-    }
+    
     return (
         <div className='spe-header' style={{ backgroundImage: `url(${specialBg})` }}>
             <div className='spe-overflow'>
@@ -27,7 +25,7 @@ const SpecialCar = () => {
                             </div>
                         </div>
                         {
-                        cars.map(car => <SpecialCarSub car={car} key={car._id} hanldeDetails={hanldeDetails}></SpecialCarSub>)
+                        cars.map(car => <SpecialCarSub car={car} key={car._id} ></SpecialCarSub>)
                         }
                     </div>
                     

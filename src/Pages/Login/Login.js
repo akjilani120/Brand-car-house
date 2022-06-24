@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import bgImg from '../image/loginBg.jpg';
 import google from '../image/google.png'
 import { useSignInWithEmailAndPassword, useSignInWithGoogle, useUpdatePassword } from 'react-firebase-hooks/auth';
@@ -32,7 +32,11 @@ const Login = () => {
     const handleGoogle =() =>{
         signInWithGoogle()
     };
+    const navigate = useNavigate()
     const [addUser] = CustomUser(eUser || guser)
+    if(addUser){
+        navigate("/")
+     }
     let showErro ;
     
     if(userError || gerror){
