@@ -12,7 +12,7 @@
     letter-spacing: 1px;
     margin-left: 5px;
 }
-.car-about{
+.signle-car-about{
     box-shadow: -10px 20px 20px rgb(207, 204, 204);
     border-radius: 8px;
 }
@@ -74,13 +74,10 @@
     border-width: 28px 18px;
     
 }
-/* .add-price:hover{
-    background-color: rgb(9, 99, 134);
+
+.comment-header{
+    border: 1px solid rgb(240, 234, 234);
+    background-color: whitesmoke;
+    padding: 15px 20px;
     border-radius: 5px;
-    color: white;
-
-} */
-.price-container{
-   
-
 }
