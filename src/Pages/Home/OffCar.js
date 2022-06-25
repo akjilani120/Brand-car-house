@@ -1,8 +1,14 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const OffCar = ({car}) => {
-    const {img , model , mainPrice, offerPrice, percentance} = car
+    const navigate = useNavigate()
+    const {img , model , mainPrice, offerPrice, percentance, _id} = car
+    
+    const handleNavigate = (id) =>{
+        navigate(`/offerCarDetails/${id}`)
+    }
     return (
         <Col>
         <Card className='card-main'>
@@ -13,7 +19,7 @@ const OffCar = ({car}) => {
                 <Card.Text>
                     <div className='d-flex justify-content-between'>
                         <p> <span className='offer-price'> ${offerPrice}</span> <span className='main-price'> ${mainPrice}</span> </p>
-                        <p><button className='buy-btn'>Buy </button></p>
+                        <p><button onClick={() => handleNavigate(_id)} className='buy-btn'>Buy </button></p>
                     </div>
                 </Card.Text>
             </Card.Body>

@@ -25,6 +25,8 @@ import SignUp from './Pages/Login/SignUp';
 import SpecialCarDetails from './Pages/Home/SpecialCar-details/SpecialCarDetails';
 import NavbarHeader from './Pages/Navbar/NavbarHeader';
 import ViewProfile from './Pages/Navbar/ViewProfile';
+import OfferCarDetails from './Pages/Home/OfferCarDetails/OfferCarDetails';
+import LamborghiniDetails from './Pages/Home/LamborghiniDetails/LamborghiniDetails';
 function App() {
   return (
     
@@ -52,6 +54,8 @@ function App() {
       <Route path='catHead' element={<CatHead></CatHead>} > </Route>      
       <Route path='/signup' element={<SignUp></SignUp>}></Route>
       <Route path='/specialDetails/:id' element={<SpecialCarDetails></SpecialCarDetails>}></Route>
+      <Route path='/offerCarDetails/:id' element={<OfferCarDetails></OfferCarDetails>}></Route>
+      <Route path='/lamborghiniCarDetails/:id' element={<LamborghiniDetails></LamborghiniDetails>}></Route>
       <Route path='/profile' element={<ViewProfile></ViewProfile>}></Route>
     </Routes>
     

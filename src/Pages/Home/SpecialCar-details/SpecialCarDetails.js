@@ -1,11 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useQuery } from 'react-query'
 import IsLoading from '../../Hooks/IsLoading';
 import ReactImageMagnify from 'react-image-magnify';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import './SpecialCar-details.css'
 import auth from '../../../firebase.init';
+import { ToastContainer, toast } from 'react-toastify';
+ import 'react-toastify/dist/ReactToastify.css';
 const SpecialCarDetails = () => {
     const { id } = useParams()
     const valueRef = useRef()
@@ -44,7 +46,9 @@ const SpecialCarDetails = () => {
 
         })
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => {
+            toast("Your Order Success")
+        })
        }
     }
     if (isLoading) {
@@ -61,13 +65,36 @@ const SpecialCarDetails = () => {
     const handleLow = () => {
         setAdd(add - 1)
     }
-    const { img, brand, model, description, topSpeed, production, bodyStyle, length, width, height, price } = data
+    const { img, brand, model, description, topSpeed, production, bodyStyle, length, width, height, price, name , comment } = data
+    console.log(data)
+    const handleComment =() =>{        
+        const name = user.displayName
+        const comment = valueRef.current.value;
+        const headComment ={
+            name:name,
+            comment : comment           
+        }
+        const url =`http://localhost:5000/specialCar/${id}`
+        fetch(url , {
+            method:"PUT",
+            headers:{
+                "content-type" : "application/json"
+            },
+           body : JSON.stringify(headComment)
+
+        })
+        .then(res => res.json())
+        .then(data => {
+            refetch()
+        })
+        
+    }
     return (
         <div className='Special-single'>
-            <div className='container'>
+            <div className='container'>                
                 <div className='row p-3 mt-3'>
                     <div className='col-lg-6 col-md-6 '>
-                        <div className='product-img'>
+                        <div className='product-img offer-magnifi-img-head'>
                             <ReactImageMagnify className='magnifi-img' {...{
                                 smallImage: {
                                     alt: 'Wristwatch by Ted Baker London',
@@ -118,17 +145,25 @@ const SpecialCarDetails = () => {
                         <hr className=' mt-4'></hr>
                         <p className='lead'>Comment</p>
                         <hr></hr>
+                        { (name || comment ) &&
+                            <div className='comment-show mb-4 mt-4'>
+                           <div className='border border-2 p-3'>
+                           <p>User name : {name}</p>
+                          
+                          <p> {comment}</p>
+                           </div>
+                        </div>}
                         <div className='comment-header'>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label lead">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='message'></textarea>
-                                <button disabled={!user} className='btn btn-dark fw-bold px-5 py-2 mt-3'>Submit </button>
+                                <textarea ref={valueRef} class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder='message'></textarea>
+                                <button disabled={!user} onClick={handleComment}  className='btn btn-dark fw-bold px-5 py-2 mt-3'>Submit </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <ToastContainer />
         </div>
     );
 };
