@@ -1,7 +1,12 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 const BugattisCar = ({bugatti}) => {
-    const {img , model , price} = bugatti
+    const navigate = useNavigate()
+    const {img , model , price, _id} = bugatti
+    const handleNavigate =(id) =>{
+        navigate(`/bugattiCarDetails/${id}`)
+    }
     return (
         <Col className=''>
         <Card className='lam-card'>
@@ -12,7 +17,7 @@ const BugattisCar = ({bugatti}) => {
                   <div className=''>
                   <div className='d-flex justify-content-between align-items-center '>
                         <p> <span className='offer-price'> Price : ${price}</span>  </p>
-                        <p><button className='buy-btn'>Buy </button></p>
+                        <p><button onClick={()=> handleNavigate(_id)} className='buy-btn'>Buy </button></p>
                     </div>
                   </div>
                 </Card.Text>
