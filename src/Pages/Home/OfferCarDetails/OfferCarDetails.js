@@ -29,7 +29,7 @@ const OfferCarDetails = () => {
        }else{
         const email = user.email
         const  product = data.model
-        const totalPrice = parseInt(data.price) * add
+        const totalPrice = parseInt(data.offerPrice) * add
         const productImg = data.img
         const totalProduct ={
             email,

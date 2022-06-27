@@ -29,6 +29,7 @@ import OfferCarDetails from './Pages/Home/OfferCarDetails/OfferCarDetails';
 import LamborghiniDetails from './Pages/Home/LamborghiniDetails/LamborghiniDetails';
 import BmwCarDetails from './Pages/Home/BMWCarDetails/BmwCarDetails';
 import BugattiCarDetails from './Pages/Home/BugattiCarDetails/BugattiCarDetails';
+import RequireAuth from './Pages/Hooks/RequireAuth';
 function App() {
   return (
     
@@ -45,7 +46,9 @@ function App() {
       <Route path='/blog' element={<Blog></Blog>}></Route>
       <Route path='/contact' element={<Contact></Contact>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>
-      <Route path='/myOrder' element={<MyOrder></MyOrder>}></Route>
+      <Route path='/myOrder' element={
+      <MyOrder></MyOrder>
+      }></Route>
       <Route path='/love' element={<Love></Love>}></Route>
       <Route path='/tata' element={<Tata></Tata>}></Route>
       <Route path='/hondaMotos' element={<HondaMotos></HondaMotos>}></Route>

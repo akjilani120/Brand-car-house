@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Link, useNavigate} from 'react-router-dom';
+import { Link, useNavigate, useLocation} from 'react-router-dom';
 import bgImg from '../image/loginBg.jpg';
 import google from '../image/google.png'
 import { useSignInWithEmailAndPassword, useSignInWithGoogle, useUpdatePassword } from 'react-firebase-hooks/auth';
@@ -17,13 +17,16 @@ const Login = () => {
       ] = useSignInWithEmailAndPassword(auth);
       const [signInWithGoogle, guser, gloading, gerror] = useSignInWithGoogle(auth);
       const [updatePassword, updating, error] = useUpdatePassword(auth);
+      const emailRef = useRef() 
+      let location = useLocation(); 
+      let from = location.state?.from?.pathname || "/"; 
     const handleSubmit =(event) =>{
         event.preventDefault()
         const email = event.target.email.value
         const password = event.target.password.value
         signInWithEmailAndPassword(email, password)
     }
-    const emailRef = useRef()    
+    
    const handlePassword = async() =>{
       const email = emailRef.current.value;      
       await updatePassword(email)
@@ -35,7 +38,7 @@ const Login = () => {
     const navigate = useNavigate()
     const [addUser] = CustomUser(eUser || guser)
     if(addUser){
-        navigate("/")
+        navigate(from, { replace: true });
      }
     let showErro ;
     
