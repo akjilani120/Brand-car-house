@@ -1,21 +1,21 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
+import  { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useQuery } from 'react-query'
 import ReactImageMagnify from 'react-image-magnify';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { ToastContainer, toast } from 'react-toastify';
  import 'react-toastify/dist/ReactToastify.css';
-import auth from '../../../firebase.init';
 import IsLoading from '../../Hooks/IsLoading';
-
-const OfferCarDetails = () => {
+import auth from '../../../firebase.init';
+const PopularCarDetails = () => {
     const { id } = useParams()
     const valueRef = useRef()
     const navigate = useNavigate()
     const [user] = useAuthState(auth)
     const [add, setAdd] = useState(1)
-    const url = `http://localhost:5000/offerCar/${id}`
-    const { isLoading, error, data, refetch } = useQuery('aboutCar', () =>
+    const url = `http://localhost:5000/populerCar/${id}`
+    const { isLoading, error, data, refetch } = useQuery('populer', () =>
         fetch(url)
             .then(res => res.json()
             )
@@ -29,7 +29,7 @@ const OfferCarDetails = () => {
        }else{
         const email = user.email
         const  product = data.model
-        const totalPrice = parseInt(data.offerPrice) * add
+        const totalPrice = parseInt(data.price) * add
         const productImg = data.img
         const totalProduct ={
             email,
@@ -65,8 +65,7 @@ const OfferCarDetails = () => {
     const handleLow = () => {
         setAdd(add - 1)
     }
-    const { img, brand, model, description, topSpeed, production, bodyStyle, length, width, height, mainPrice, offerPrice, name , comment , percentance } = data
-   
+    const { img, brand, model, description, Condition , bodyStyle, length, width, height, price, name , comment , classType } = data
     const handleComment =() =>{        
         const name = user.displayName
         const comment = valueRef.current.value;
@@ -74,7 +73,7 @@ const OfferCarDetails = () => {
             name:name,
             comment : comment           
         }
-        const url =`http://localhost:5000/offerCar/${id}`
+        const url =`http://localhost:5000/populerCar/${id}`
         fetch(url , {
             method:"PUT",
             headers:{
@@ -92,8 +91,8 @@ const OfferCarDetails = () => {
         <div className='container'>                
             <div className='row p-3 mt-3'>
                 <div className='col-lg-6 col-md-6 '>
-                    <div className='product-img'>
-                        <ReactImageMagnify className='magnifi-img' {...{
+                    <div className='product-img offer-magnifi-img-head'>
+                        <ReactImageMagnify height="500px" className='magnifi-img' {...{
                             smallImage: {
                                 alt: 'Wristwatch by Ted Baker London',
                                 isFluidWidth: true,
@@ -105,10 +104,8 @@ const OfferCarDetails = () => {
                                 height: 1800
                             }
                         }} />
-                        
-                        <div className=' d-flex justify-content-between mt-3 px-3'>
-                           <div className='card-car w-25'> <img className='w-100' src={img}></img></div>
-                           <p className='offer-single-item'>  {percentance}</p>
+                        <div className='card w-25 card-car '>
+                            <img className='w-100' src={img}></img>
                         </div>
                         <div className='my-3'>
 
@@ -116,8 +113,7 @@ const OfferCarDetails = () => {
 
                         </div>
                         <div className='price-container '>
-                            <p className=' add-price'> $ {offerPrice}</p>
-                            <p className='offer-main-price'> $ { mainPrice}</p>
+                            <p className=' add-price'> $ {price}</p>
                             <p onClick={handleAddCart} className='px-4 add-cart text-white' >Add To Cart</p>
                         </div>
                     </div>
@@ -130,8 +126,8 @@ const OfferCarDetails = () => {
                             <li class="list-group-item list-group-item-action text-justify"><b>Car Name :</b> <span className='main-details'>{model}</span>  </li>
                             <li class="list-group-item list-group-item-action text-justify"><b>Car Brand :</b> <span className='main-details'>{brand}</span>  </li>
                             <li class="list-group-item list-group-item-action text-justify"><b>Description :</b> <span className='main-details'>{description}</span>   </li>
-                            <li class="list-group-item list-group-item-action text-justify"><b>Top Spreed :</b> <span className='main-details'>{topSpeed}</span>  </li>
-                            <li class="list-group-item list-group-item-action text-justify"><b>Production :</b> <span className='main-details'>{production}</span>  </li>
+                            <li class="list-group-item list-group-item-action text-justify"><b>Car Class :</b> <span className='main-details'>{classType}</span>  </li>
+                            <li class="list-group-item list-group-item-action text-justify"><b>Conditon :</b> <span className='main-details'>{Condition}</span>  </li>
                             <li class="list-group-item list-group-item-action text-justify"><b>Body style :</b> <span className='main-details'>{bodyStyle}</span>   </li>
                             <li class="list-group-item list-group-item-action text-justify"><b> Length :</b> <span className='main-details'>{length}</span>  </li>
                             <li class="list-group-item list-group-item-action text-justify"><b>width :</b> <span className='main-details'>{width}</span>  </li>
@@ -169,4 +165,4 @@ const OfferCarDetails = () => {
     );
 };
 
-export default OfferCarDetails;
+export default PopularCarDetails;

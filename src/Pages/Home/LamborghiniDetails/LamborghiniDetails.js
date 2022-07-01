@@ -66,7 +66,7 @@ const LamborghiniDetails = () => {
         setAdd(add - 1)
     }
     const { img, brand, model, description, topSpeed, production, bodyStyle, length, width, height, price, name , comment } = data
-    console.log(data)
+   
     const handleComment =() =>{        
         const name = user.displayName
         const comment = valueRef.current.value;

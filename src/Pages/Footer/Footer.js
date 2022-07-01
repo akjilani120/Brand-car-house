@@ -46,9 +46,7 @@ const Footer = () => {
         <div>
 
         </div>
-        <div className="last-footer">
-            <p className='text-center text-white'>Copyright &copy; 2016  All right reserved by ak jilani</p>
-        </div>
+       
     </div>
        
     );

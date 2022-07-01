@@ -38,6 +38,7 @@ import UseCar from './Pages/UseCar/UseCar';
 import Service from "./Pages/Service/Service";
 import NotFound from './Pages/NotFound_page/NotFound';
 import Dashboard from './Pages/DashBoard/Dashboard';
+import PopularCarDetails from './Pages/Home/PopularCarDetails/PopularCarDetails';
 function App() {
   return (
     
@@ -71,6 +72,7 @@ function App() {
       <Route path='/lamborghiniCarDetails/:id' element={<LamborghiniDetails></LamborghiniDetails>}></Route>
       <Route path='/bmwCarDetails/:id' element={<BmwCarDetails></BmwCarDetails>}></Route>
       <Route path='/bugattiCarDetails/:id' element={<BugattiCarDetails></BugattiCarDetails>}></Route>      
+      <Route path='/popularCarDetails/:id' element={<PopularCarDetails></PopularCarDetails>}></Route>      
       <Route path='/profileDashboard' element={<RequireAuth><ProfileDashboard></ProfileDashboard></RequireAuth>}>
         <Route index element={<ViewProfile></ViewProfile>}></Route>
         <Route path='address' element={<Address></Address>}></Route>
