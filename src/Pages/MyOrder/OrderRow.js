@@ -10,7 +10,7 @@ const OrderRow = ({order, index , refetch}) => {
         })
         .then(res => res.json())
         .then(data => {
-        //    alert("Are you sure Delete Your Order")
+        
             refetch()
         })
     }

@@ -34,6 +34,7 @@ import ProfileDashboard from './Pages/Navbar/ViewProfileDetails/ProfileDashboard
 import Address from './Pages/Navbar/ViewProfileDetails/Address';
 import UpdateProfile from './Pages/Navbar/ViewProfileDetails/UpdateProfile';
 import OrderHistory from './Pages/Navbar/ViewProfileDetails/OrderHistory';
+import NotFound from './Pages/NotFound_page/NotFound';
 function App() {
   return (
     
@@ -73,6 +74,7 @@ function App() {
         <Route path='updateProfile' element={<UpdateProfile></UpdateProfile>}></Route>
         <Route path='orderHistory' element={<OrderHistory></OrderHistory>}></Route>
       </Route>
+      <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
     
     <Footer></Footer>
