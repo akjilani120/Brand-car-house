@@ -37,25 +37,25 @@ const Navbara = () => {
 
                     </Nav>
                     <Nav>
-                        <Nav.Link > <Link className="nav-login" to="/login">
+                        <Nav.Link > 
                             <div className='login-items'>
                             { user ? <div   className='btn btn-dark logout-head'> {user.displayName}
                             <div className='logout-details'>
                                 <ul>
-                                    <Link className='view-profile' to="/profile"> <li >View Profile</li></Link>
+                                    <Link className='view-profile' to="/profileDashboard"> <li >View Profile</li></Link>
                                     <Link className='view-profile' to="/myOrder"> <li >My Order</li></Link>
                                      <li onClick={logOut}> Log Out</li>
                                 </ul>
                             </div>
                             </div> :
-                            <p><FontAwesomeIcon className='user-icon' icon={faUser} />
+                           <Link className="nav-login" to="/login"> <p><FontAwesomeIcon className='user-icon' icon={faUser} />
                             login
-                            </p>}
+                            </p> </Link>}
                            
                             </div>
                             
                             
-                        </Link></Nav.Link>
+                        </Nav.Link>
                         
                     </Nav>
                 </Navbar.Collapse>

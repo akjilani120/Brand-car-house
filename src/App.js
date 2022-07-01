@@ -24,12 +24,16 @@ import Footer from './Pages/Footer/Footer';
 import SignUp from './Pages/Login/SignUp';
 import SpecialCarDetails from './Pages/Home/SpecialCar-details/SpecialCarDetails';
 import NavbarHeader from './Pages/Navbar/NavbarHeader';
-import ViewProfile from './Pages/Navbar/ViewProfile';
+import ViewProfile from './Pages/Navbar/ViewProfileDetails/ViewProfile';
 import OfferCarDetails from './Pages/Home/OfferCarDetails/OfferCarDetails';
 import LamborghiniDetails from './Pages/Home/LamborghiniDetails/LamborghiniDetails';
 import BmwCarDetails from './Pages/Home/BMWCarDetails/BmwCarDetails';
 import BugattiCarDetails from './Pages/Home/BugattiCarDetails/BugattiCarDetails';
 import RequireAuth from './Pages/Hooks/RequireAuth';
+import ProfileDashboard from './Pages/Navbar/ViewProfileDetails/ProfileDashboard';
+import Address from './Pages/Navbar/ViewProfileDetails/Address';
+import UpdateProfile from './Pages/Navbar/ViewProfileDetails/UpdateProfile';
+import OrderHistory from './Pages/Navbar/ViewProfileDetails/OrderHistory';
 function App() {
   return (
     
@@ -47,7 +51,7 @@ function App() {
       <Route path='/contact' element={<Contact></Contact>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>
       <Route path='/myOrder' element={
-      <MyOrder></MyOrder>
+      <RequireAuth><MyOrder></MyOrder></RequireAuth>
       }></Route>
       <Route path='/love' element={<Love></Love>}></Route>
       <Route path='/tata' element={<Tata></Tata>}></Route>
@@ -62,8 +66,13 @@ function App() {
       <Route path='/offerCarDetails/:id' element={<OfferCarDetails></OfferCarDetails>}></Route>
       <Route path='/lamborghiniCarDetails/:id' element={<LamborghiniDetails></LamborghiniDetails>}></Route>
       <Route path='/bmwCarDetails/:id' element={<BmwCarDetails></BmwCarDetails>}></Route>
-      <Route path='/bugattiCarDetails/:id' element={<BugattiCarDetails></BugattiCarDetails>}></Route>
-      <Route path='/profile' element={<ViewProfile></ViewProfile>}></Route>
+      <Route path='/bugattiCarDetails/:id' element={<BugattiCarDetails></BugattiCarDetails>}></Route>      
+      <Route path='/profileDashboard' element={<RequireAuth><ProfileDashboard></ProfileDashboard></RequireAuth>}>
+        <Route index element={<ViewProfile></ViewProfile>}></Route>
+        <Route path='address' element={<Address></Address>}></Route>
+        <Route path='updateProfile' element={<UpdateProfile></UpdateProfile>}></Route>
+        <Route path='orderHistory' element={<OrderHistory></OrderHistory>}></Route>
+      </Route>
     </Routes>
     
     <Footer></Footer>

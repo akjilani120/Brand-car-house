@@ -11,14 +11,16 @@ const CustomUser = (user) => {
      fetch(`http://localhost:5000/user/${email}`,{
         method:"PUT",
         headers:{
-            "content-type" :"application/json"
+            "content-type" :"application/json",
+            "authorization": `Bearer ${localStorage.getItem("accessToken")}`
         },
         body : JSON.stringify(currentEmail)
      })
      .then(res => res.json())
      .then(data => {
+        console.log(data)
         const accessToken = data?.token
-       
+       console.log(accessToken)
         if(accessToken){
            
             localStorage.setItem("accessToken" , accessToken)            
