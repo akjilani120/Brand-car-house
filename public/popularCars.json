@@ -1,50 +1,92 @@
 [
     {
-        "id": 1,
+        
         "img" : "https://toyota.com.bd/media/images/altis_front.width-1920.png",
         "name" :"Corolla Altis Hybrid",
         "company": "TOYOTA",
-        "Condition" : "New"
+        "Condition" : "New",
+        "price" : 2500000,
+        "classType" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"3,352 mm (76.9 in)",
+        "height" : "1,413 mm (47.8 in)",
+         "description" : "The Corolla Altis Hybrid is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghostnameplate, named in honour of the Silver Ghost, a car first produced in 1906, was announced in April 2009 at the Auto Shanghai show. The production model was officially unveiled at the 2009 Frankfurt Motor Show. "
 
     },
     {
-        "id":2 ,
+        
         "img" : "https://www.freepnglogos.com/uploads/honda-car-png/honda-car-upcoming-new-honda-cars-india-new-honda-3.png",
         "name" :"Honda Motor Series j",
         "company": "HONDA MOTOS COMPANY",
-        "Condition" : "New"
+        "Condition" : "New",
+        "price" : 2200000,
+        "classType" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"3,352 mm (76.9 in)",
+        "height" : "1,413 mm (47.8 in)",
+         "description" : "The Honda Motor Series j is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghostnameplate, named in honour of the Silver Ghost, a car first produced in 1906, was announced in April 2009 at the Auto Shanghai show. The production model was officially unveiled at the 2009 Frankfurt Motor Show. "
 
     },
     {
-        "id": 3,
+        
         "img" : "https://c8.alamy.com/comp/W17PN7/brussels-belgium-jan-2019-volkswagen-vw-polo-at-brussels-motor-show-sixth-generation-typ-aw-mqb-a0-platform-produced-by-volkswagen-group-W17PN7.jpg",
         "name" :"VW polo Aries",
         "company": "volkswagen",
-        "Condition" : "New"
+        "Condition" : "New",
+        "price" : 1500000,
+        "classType" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"3,352 mm (76.9 in)",
+        "height" : "1,413 mm (47.8 in)",
+         "description" : "TheVW polo Aries is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghostnameplate, named in honour of the Silver Ghost, a car first produced in 1906, was announced in April 2009 at the Auto Shanghai show. The production model was officially unveiled at the 2009 Frankfurt Motor Show. "
 
     },
     {
-        "id":4 ,
+        
         "img" : "https://www.tata.com/content/dam/tata/images/verticals/desktop/hexa_card_desktop_362x362.jpg",
         "name" :"Tata Businnes vertical series",
         "company": "TATA",
-        "Condition" : "New"
+        "Condition" : "New",
+        "price" : 2000000,
+        "classType" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"3,352 mm (76.9 in)",
+        "height" : "1,413 mm (47.8 in)",
+         "description" : "The Tata Businnes vertical series is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghostnameplate, named in honour of the Silver Ghost, a car first produced in 1906, was announced in April 2009 at the Auto Shanghai show. The production model was officially unveiled at the 2009 Frankfurt Motor Show. "
 
     },
     {
-        "id": 5,
+        
         "img" : "https://images.hgmsites.net/med/2021-mazda-mazda6-sport-auto-angular-front-exterior-view_100780481_m.jpg",
         "name" :"Mazda MAZDA6",
         "company": "Mazda",
-        "Condition" : "New"
+        "Condition" : "New",
+        "price" : 4000000,
+        "classType" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"3,352 mm (76.9 in)",
+        "height" : "1,413 mm (47.8 in)",
+         "description" : "TheMazda MAZDA6 is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghostnameplate, named in honour of the Silver Ghost, a car first produced in 1906, was announced in April 2009 at the Auto Shanghai show. The production model was officially unveiled at the 2009 Frankfurt Motor Show. "
 
     },
     {
-        "id":6 ,
+        
         "img" : "https://thumbs.dreamstime.com/b/white-jac-car-china-zhengzhou-international-automotive-exhibition-48978642.jpg",
         "name" :"JAC series j 2022",
         "company": "JAC",
-        "Condition" : "New"
+        "Condition" : "New",
+        "price" : 3000000,
+        "classType" : "Full-size luxury car",
+        "bodyStyle" : "4-door saloon",
+        "length" :"4,568 mm (179.8 in)",
+        "width" :"3,352 mm (76.9 in)",
+        "height" : "1,413 mm (47.8 in)",
+         "description" : "The Mazda MAZDA6 is a full-sized luxury car manufactured by Rolls-Royce Motor Cars. The Ghostnameplate, named in honour of the Silver Ghost, a car first produced in 1906, was announced in April 2009 at the Auto Shanghai show. The production model was officially unveiled at the 2009 Frankfurt Motor Show. "
 
     }
 ]

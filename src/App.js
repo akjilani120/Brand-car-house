@@ -34,7 +34,10 @@ import ProfileDashboard from './Pages/Navbar/ViewProfileDetails/ProfileDashboard
 import Address from './Pages/Navbar/ViewProfileDetails/Address';
 import UpdateProfile from './Pages/Navbar/ViewProfileDetails/UpdateProfile';
 import OrderHistory from './Pages/Navbar/ViewProfileDetails/OrderHistory';
+import UseCar from './Pages/UseCar/UseCar';
+import Service from "./Pages/Service/Service";
 import NotFound from './Pages/NotFound_page/NotFound';
+import Dashboard from './Pages/DashBoard/Dashboard';
 function App() {
   return (
     
@@ -74,6 +77,9 @@ function App() {
         <Route path='updateProfile' element={<UpdateProfile></UpdateProfile>}></Route>
         <Route path='orderHistory' element={<OrderHistory></OrderHistory>}></Route>
       </Route>
+      <Route path='/useCar' element={<UseCar></UseCar>}></Route>
+      <Route path='/service' element={<Service></Service>}></Route>
+      <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
       <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
     
