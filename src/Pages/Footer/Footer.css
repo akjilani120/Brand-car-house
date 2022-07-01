@@ -19,10 +19,12 @@
 }
 @media screen and (max-width:768px) {
     .footer .footer-overflow{
-        justify-content: start;
+        
+        display: block;
     }
     .footer  .footer-number{
-        width: 50%;
+        width: 100%;
+        padding: 20px 40px ;
     }
    
 }

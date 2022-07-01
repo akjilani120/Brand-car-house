@@ -11,7 +11,7 @@ const Bugati = () => {
     } ,[bugatis])
     return (
         <div className='px-5'>
-        <Row xs={1} md={2} lg={3} className="g-4">
+        <Row xs={2} md={3} lg={4} className="g-4">
           {
               bugatis.map( bugatti => <BugattisCar bugatti ={bugatti} key={bugatti._id}></BugattisCar> )
           }

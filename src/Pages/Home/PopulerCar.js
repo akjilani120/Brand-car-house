@@ -28,7 +28,7 @@ const PopulerCar = () => {
         <div className='populer-car mt-2 pb-5'>
             <div className='container'>
                 <h1 className='my-5 text-uppercase'>-Populer Categorious</h1>
-                <Row xs={1} md={2} lg={2} className="g-4">
+                <Row xs={1} md={2} lg={2} className="g-3">
                     {
                         data.map(car => <PopulerCarSub car={car} key={car._id}></PopulerCarSub>)
                     }

@@ -8,7 +8,7 @@ const ProfileDashboard = () => {
             <div className='container'>
                 <div className='profileHead'>
                     <div className='row'>
-                        <div className='col-lg-3  col-md-4 col-'>
+                        <div className='col-lg-3  col-md-4 col-4'>
                             <div className='profile-item-list'>                             
                              <div>
                                 <ul className='profile-orderlist'>

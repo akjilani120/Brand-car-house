@@ -10,8 +10,8 @@ const OffCar = ({car}) => {
         navigate(`/offerCarDetails/${id}`)
     }
     return (
-        <Col>
-        <Card className='card-main'>
+        <Col className='px-lg-2  px-md-2 px-5'>
+        <Card className='card-main '>
             <img className='card-img'  src={img} />
             <p  className=' percentance-head' > <span className='percentance p-2 '>{percentance}</span> </p>
             <Card.Body className='m-0 px-2'>

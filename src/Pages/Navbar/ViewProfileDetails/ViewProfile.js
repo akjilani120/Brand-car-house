@@ -12,7 +12,7 @@ const ViewProfile = () => {
 
             </div>
             <hr></hr>
-            <div className='d-flex justify-content-center'>
+            <div className='profile-head-part'>
             <div className='profile-img'>
                 <img src={user.reloadUserInfo.photoUrl} alt="Profile img"></img>
             </div>

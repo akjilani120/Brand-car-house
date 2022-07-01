@@ -39,6 +39,10 @@ import Service from "./Pages/Service/Service";
 import NotFound from './Pages/NotFound_page/NotFound';
 import Dashboard from './Pages/DashBoard/Dashboard';
 import PopularCarDetails from './Pages/Home/PopularCarDetails/PopularCarDetails';
+import Admin from './Pages/DashBoard/Admin';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import PopulerDataAdd from './Pages/DashBoard/PopulerDataAdd';
 function App() {
   return (
     
@@ -81,11 +85,17 @@ function App() {
       </Route>
       <Route path='/useCar' element={<UseCar></UseCar>}></Route>
       <Route path='/service' element={<Service></Service>}></Route>
-      <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
+      <Route path='/dashboard' element={<RequireAuth>
+        <Dashboard></Dashboard>
+      </RequireAuth>}>
+        <Route index element={<Admin></Admin>}></Route>
+        <Route path='populer' element={<PopulerDataAdd></PopulerDataAdd>}></Route>
+      </Route>
       <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
     
     <Footer></Footer>
+    <ToastContainer />
     </div>
   );
 }

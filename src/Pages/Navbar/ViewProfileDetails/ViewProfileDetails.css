@@ -42,3 +42,12 @@
     margin-top: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+.profile-head-part{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:768px) {
+    .profile-head-part{
+        display: block;
+    }
+}

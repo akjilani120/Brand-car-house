@@ -9,7 +9,7 @@ const PopulerCarSub = ({car}) => {
     }
     return (
         <Col className='my-3 card-col'>
-        <div className='d-flex justify-content-center mx-2 car-items-head ' >
+        <div className='d-flex justify-content-center car-items-head ' >
             <div className='car-about'>
                 <h6>Car Name : {model}</h6>
                 <ul>

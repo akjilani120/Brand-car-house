@@ -1,0 +1,58 @@
+.dashboard-main {
+    display: flex;
+}
+
+.dashboard-nav {
+    width: 20%;    
+    background-color: rgb(8, 8, 58);
+    padding: 30px 20px ;
+   
+}
+.dashboard-custom{
+    display: block;
+    text-align: center;
+    color: white;
+}
+.dashboard-display {
+    width: 80%;  
+    height: 100%;
+    background: #C9FFBF;    
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); 
+}
+
+.admin-list {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.admin-title {
+    font-size: 50px;
+    color: rgb(17, 17, 56);
+}
+
+.table-header {
+    background-color: rgb(19, 19, 73);
+    color: white;
+}
+.dashboard-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.dashboard-nav ul li{
+    margin: 10px auto;
+}
+@media screen and (max-width: 768px) {
+    .admin-list {
+        width: 95%;
+    }
+    .dashboard-display{
+        width: 70%;
+    }
+    .dashboard-nav{
+        width: 30%;
+        padding: 30px 10px ;
+    }
+    
+}
