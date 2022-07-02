@@ -43,6 +43,9 @@
 .dashboard-nav ul li{
     margin: 10px auto;
 }
+.populer-car-add{
+    width: 80%;
+}
 @media screen and (max-width: 768px) {
     .admin-list {
         width: 95%;
@@ -54,5 +57,8 @@
         width: 30%;
         padding: 30px 10px ;
     }
-    
+    .populer-car-add{
+        margin: 10px;
+        padding: 10px;
+    }
 }
