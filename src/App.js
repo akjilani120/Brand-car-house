@@ -43,6 +43,8 @@ import Admin from './Pages/DashBoard/Admin';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PopulerDataAdd from './Pages/DashBoard/PopulerDataAdd';
+import SpecialCarDataAdd from './Pages/DashBoard/SpecialCarDataAdd';
+import AllOrders from './Pages/DashBoard/AllOrders';
 function App() {
   return (
     
@@ -90,6 +92,9 @@ function App() {
       </RequireAuth>}>
         <Route index element={<Admin></Admin>}></Route>
         <Route path='populer' element={<PopulerDataAdd></PopulerDataAdd>}></Route>
+        <Route path='special' element={<SpecialCarDataAdd></SpecialCarDataAdd>}></Route>
+        <Route path='special' element={<SpecialCarDataAdd></SpecialCarDataAdd>}></Route>
+        <Route path='allOrders' element={<AllOrders></AllOrders>}></Route>
       </Route>
       <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
