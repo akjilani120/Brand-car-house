@@ -53,7 +53,7 @@ const SpecialCarDataAdd = () => {
         <div className='sign-header' >
         <div className='sign-overflow d-flex justify-content-center align-items-center'>
             <div className='sign-model populer-car-add'>
-                <h3 className='text-center signUp-title  mb-5'>Populer Categorious Car Data Add </h3>
+                <h3 className='text-center signUp-title  mb-5'>Special Car Data Add </h3>
                 <div className='form-head'>
                     <form onSubmit={handlePopulerData} >                         
                         
