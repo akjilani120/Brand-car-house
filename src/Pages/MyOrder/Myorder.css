@@ -4,7 +4,11 @@
 }
 .order-title{
     display: inline-block;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(4, 4, 49);
     font-weight: 600;
     text-transform: capitalize;
+    color: rgb(4, 4, 49);
+}
+.my-order-title{
+    
 }

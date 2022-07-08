@@ -6,7 +6,7 @@ import auth from '../../firebase.init';
 const AdminRow = ({user , index , refetch}) => {
   const {email ,  role} = user;
   const handleAdmin =() =>{
-    const url = `http://localhost:5000/users/admin/${email}`;
+    const url = `https://powerful-falls-58401.herokuapp.com/user/admin/${email}`;
     fetch(url , {
         method:"PUT",
         headers:{
@@ -16,8 +16,8 @@ const AdminRow = ({user , index , refetch}) => {
     .then(res => {
         if (res.status === 401 || res.status === 403) {
             alert("Fobidden Access. Please Login then come back this page")
-            signOut(auth)
-            localStorage.removeItem("accessToken")
+            // signOut(auth)
+            // localStorage.removeItem("accessToken")
         }
         return res.json()
     })

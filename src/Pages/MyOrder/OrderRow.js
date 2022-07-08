@@ -4,7 +4,7 @@ import Modal from '../Hooks/Modal';
 const OrderRow = ({order, index , refetch}) => {
     const {email , product , productImg, totalPrice , _id} =order
     const handleDelete =(id) =>{
-        const url=(`http://localhost:5000/myOrders/${id}`)
+        const url=(`https://powerful-falls-58401.herokuapp.com/myOrders/${id}`)
         fetch(url ,{
             method:"DELETE"
         })

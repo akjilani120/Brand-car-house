@@ -9,7 +9,7 @@ import Modal from '../Hooks/Modal';
 const MyOrder = () => {
     const [user] = useAuthState(auth)
     const email = user?.email
-    const url = `http://localhost:5000/myOrders?email=${email}`
+    const url = `https://powerful-falls-58401.herokuapp.com/myOrders?email=${email}`
     const { isLoading, error, data, refetch } = useQuery('myorders', () =>
         fetch(url, {
             method: "GET",
@@ -33,12 +33,8 @@ const MyOrder = () => {
     return (
         <div className='my-order-head '>
             <div className='text-center'>
-                <h1 className=' text-white display-2 order-title my-4'> My car orders</h1>
-             
+                <h1 className=' my-order-title display-2 order-title mt-4 mb-5'> My car orders</h1>           
                
-
-               
-                
             </div>
             <div className='container'>
                 <div className='row'>

@@ -5,7 +5,7 @@ import BmwCar from './BmwCar';
 const Bmw = () => {
     const [bmws , setBmws] = useState([])
     useEffect(() =>{
-        fetch("http://localhost:5000/bmw")
+        fetch("https://powerful-falls-58401.herokuapp.com/bmw")
         .then( res => res.json())
         .then(data => setBmws(data))
     } ,[bmws])

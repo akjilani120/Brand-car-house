@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import banner1 from '../image/banner/banner-1.1.jpg'
 import banner2 from '../image/banner/banner-1.jpg'
@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className='banner-header'>
       <div className='row'>
-        <div className='col-lg-3'>
+        <div className='col-lg-3 d-none d-lg-block '>
           <div className='row'>
             <img className='w-100 half-img mb-4'  src={banner1} alt='banner-img'/>
           </div>
@@ -15,7 +15,7 @@ const Banner = () => {
           <img  className='w-100 half-img'  src={banner2} alt='banner-img'/>
           </div>
         </div>
-        <div className='col-lg-3'>
+        <div className='col-lg-3 d-none d-lg-block '>
         <img className='w-100  full-height'  src={banner3  } alt='banner-img'/>
         </div>
         <div className='col-lg-6'>

@@ -7,7 +7,7 @@ import PopulerCarSub from './PopulerCarSub';
 const PopulerCar = () => {
    
     const { isLoading, error, data} = useQuery('populerCar', () =>
-        fetch("http://localhost:5000/populerCar", {
+        fetch("https://powerful-falls-58401.herokuapp.com/populerCar", {
             method: "GET",
             
         })

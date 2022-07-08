@@ -29,7 +29,7 @@ const PopulerDataAdd = () => {
         height: carHeight,
         description
        }
-       fetch('http://localhost:5000/populerCar' , {
+       fetch('https://powerful-falls-58401.herokuapp.com/populerCar' , {
         method:"POST", 
         headers:{
             "content-type" : "application/json",

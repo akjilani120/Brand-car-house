@@ -4,7 +4,7 @@ import auth from '../../../firebase.init';
 
 const ViewProfile = () => {
     const [user] = useAuthState(auth)
-    console.log(user)
+   
     return (
         <div>
             <div>

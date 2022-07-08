@@ -34,7 +34,7 @@ const SpecialCarDataAdd = () => {
         topSpeed,
         production
        }
-       fetch('http://localhost:5000/specialCar' , {
+       fetch('https://powerful-falls-58401.herokuapp.com/specialCar' , {
         method:"POST", 
         headers:{
             "content-type" : "application/json",

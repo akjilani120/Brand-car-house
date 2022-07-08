@@ -5,7 +5,7 @@ import BugattisCar from './BugattisCar';
 const Bugati = () => {
     const [bugatis , setBugatis] = useState([])
     useEffect(() =>{
-        fetch("http://localhost:5000/bugatti")
+        fetch("https://powerful-falls-58401.herokuapp.com/bugatti")
         .then( res => res.json())
         .then(data => setBugatis(data))
     } ,[bugatis])

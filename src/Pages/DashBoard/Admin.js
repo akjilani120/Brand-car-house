@@ -4,10 +4,10 @@ import IsLoading from '../Hooks/IsLoading';
 import AdminRow from './AdminRow';
 const Admin = () => {
     const { isLoading, error, data, refetch } = useQuery('users', () =>
-        fetch("http://localhost:5000/users", {
+        fetch("https://powerful-falls-58401.herokuapp.com/users", {
             method: "GET",
             headers: {
-                "authorization": `Bearer ${localStorage.getItem("accessToken")}`
+              
             }
         })
             .then(res => res.json()

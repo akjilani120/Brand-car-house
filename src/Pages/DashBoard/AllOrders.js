@@ -4,7 +4,7 @@ import IsLoading from '../Hooks/IsLoading';
 import AllOrdersRow from './AllOrdersRow';
 const AllOrders = () => {
     const { isLoading, error, data } = useQuery('allOrders', () =>
-    fetch("http://localhost:5000/allOrders", {
+    fetch("https://powerful-falls-58401.herokuapp.com/allOrders", {
         method: "GET",
         headers: {
             "authorization": `Bearer ${localStorage.getItem("accessToken")}`

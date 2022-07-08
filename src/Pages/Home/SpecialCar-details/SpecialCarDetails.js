@@ -14,7 +14,7 @@ const SpecialCarDetails = () => {
     const navigate = useNavigate()
     const [user] = useAuthState(auth)
     const [add, setAdd] = useState(1)
-    const url = `http://localhost:5000/specialCar/${id}`
+    const url = `https://powerful-falls-58401.herokuapp.com/specialCar/${id}`
     const { isLoading, error, data, refetch } = useQuery('aboutCar', () =>
         fetch(url)
             .then(res => res.json()
@@ -37,7 +37,7 @@ const SpecialCarDetails = () => {
             productImg,
             totalPrice
         }
-        fetch('http://localhost:5000/orders',{
+        fetch('https://powerful-falls-58401.herokuapp.com/orders',{
         method:"POST",
         headers:{
             "content-type" : "application/json"
@@ -66,7 +66,7 @@ const SpecialCarDetails = () => {
         setAdd(add - 1)
     }
     const { img, brand, model, description, topSpeed, production, bodyStyle, length, width, height, price, name , comment } = data
-    console.log(data)
+    
     const handleComment =() =>{        
         const name = user.displayName
         const comment = valueRef.current.value;
@@ -74,7 +74,7 @@ const SpecialCarDetails = () => {
             name:name,
             comment : comment           
         }
-        const url =`http://localhost:5000/specialCar/${id}`
+        const url =`https://powerful-falls-58401.herokuapp.com/specialCar/${id}`
         fetch(url , {
             method:"PUT",
             headers:{
