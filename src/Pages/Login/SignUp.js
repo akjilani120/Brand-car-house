@@ -32,7 +32,10 @@ const SignUp = () => {
      const [addUser] = CustomUser(eUser || guser)
      const navigate = useNavigate()
      let showErro;
-     if(addUser){
+     if(eUser ){
+        navigate("/login")
+     }
+     if( guser){
         navigate("/")
      }
      if(userError || gerror || error){

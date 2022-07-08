@@ -37,7 +37,7 @@ const Login = () => {
     };
     const navigate = useNavigate()
     const [addUser] = CustomUser(eUser || guser)
-    if(addUser){
+    if(eUser || guser){
         navigate(from, { replace: true });
      }
     let showErro ;
