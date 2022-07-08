@@ -20,6 +20,8 @@
 }
 .team-membar{
     position: relative;
+    transition: 600ms;
+    cursor: pointer;
 }
 .team-membar-img{
     width: 100%;
@@ -38,4 +40,10 @@
 background: linear-gradient(180deg, rgba(173,23,61,0.7679446778711485) 0%, rgba(59,18,8,1) 69%);
 height: 100%;
 width: 100%;
+color: white;
+padding: 20px;
+display: none;
+}
+.team-membar:hover .team-absulate{
+    display: block;
 }
