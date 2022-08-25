@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='footer pb-3'>
             <div className=''>
                 <div className="footer-overflow pt-5">
-                    <div className="footer-number first-footer-number">
+                    <div className="footer-number first-footer-number p-4">
                         <div className="logo">
                         <h2 className='Navbar-title '> <span className='ak'>B</span>rand <span className='ak'>C</span>ar <span className='ak'>H</span>ouse </h2>
                         </div>
