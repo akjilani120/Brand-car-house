@@ -1,0 +1,22 @@
+.blog-main {   
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-title{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+}
+.blog-body-part{
+    background-color: #F9F6F6;
+}
+.blog-first-icon{
+    border-right: 2px solid rgb(145, 145, 168) ;
+}
+.icon-pera{
+   color: rgb(145, 145, 168);   
+}
