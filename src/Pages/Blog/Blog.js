@@ -1,8 +1,9 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faMessage } from '@fortawesome/free-solid-svg-icons';
+
 import './Blog.css'
 import bg from '../image/Blog/hero2.png'
+import RecentPosts from './RecentPosts';
+import BlogShow from './BlogShow';
 const Blog = () => {
     return (
         <div>
@@ -18,62 +19,7 @@ const Blog = () => {
                     <div className="container">
                         <div className="row py-5">
                             <div className="col-lg-8 col-md-8">
-                                <div className="blog card">
-                                    <img className='w-100' src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                                    <div className='blog-date'>
-                                        <h4 className='text-white'>25 Jan</h4>
-                                    </div>
-                                    <div className="card-body">
-                                        <h2>Car for new 35-store office</h2>
-                                        <p>A car is a wheeled motor vehicle that is used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people instead of</p>
-                                        <p className='icon-pera'><span className='blog-first-icon m'><FontAwesomeIcon className='blog-icon  me-2' icon={faUser} />Travel , Lifestyle </span> <span className='ms-3'><FontAwesomeIcon className='blog-icon me-2' icon={faMessage} /> 3 comments </span></p>
-                                    </div>
-                                </div>
-                                <div className="blog card">
-                                    <img className='w-100' src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                                    <div className='blog-date'>
-                                        <h4 className='text-white'>25 Jan</h4>
-                                    </div>
-                                    <div className="card-body">
-                                        <h2>Car for new 36-store office</h2>
-                                        <p>A car is a wheeled motor vehicle that is used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people instead of</p>
-                                        <p className='icon-pera'><span className='blog-first-icon m'><FontAwesomeIcon className='blog-icon  me-2' icon={faUser} />Travel , Lifestyle </span> <span className='ms-3'><FontAwesomeIcon className='blog-icon me-2' icon={faMessage} /> 3 comments </span></p>
-                                    </div>
-                                </div>
-                                <div className="blog card">
-                                    <img className='w-100' src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                                    <div className='blog-date'>
-                                        <h4 className='text-white'>25 Jan</h4>
-                                    </div>
-                                    <div className="card-body">
-                                        <h2>Car  for new 37-store office</h2>
-                                        <p>A car is a wheeled motor vehicle that is used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people instead of</p>
-                                        <p className='icon-pera'><span className='blog-first-icon m'><FontAwesomeIcon className='blog-icon  me-2' icon={faUser} />Travel , Lifestyle </span> <span className='ms-3'><FontAwesomeIcon className='blog-icon me-2' icon={faMessage} /> 5 comments </span></p>
-                                    </div>
-                                </div>
-                                <div className="blog card">
-                                    <img className='w-100' src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                                    <div className='blog-date'>
-                                        <h4 className='text-white'>25 Jan</h4>
-                                    </div>
-                                    <div className="card-body">
-                                        <h2>Car part for new 38-store office</h2>
-                                        <p>A car is a wheeled motor vehicle that is used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people instead of</p>
-                                        <p className='icon-pera'><span className='blog-first-icon m'><FontAwesomeIcon className='blog-icon  me-2' icon={faUser} />Travel , Lifestyle </span> <span className='ms-3'><FontAwesomeIcon className='blog-icon me-2' icon={faMessage} /> 3 comments </span></p>
-                                    </div>
-                                </div>
-                                <div className="blog card">
-                                    <img className='w-100' src="https://images.unsplash.com/photo-1462396881884-de2c07cb95ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
-                                    <div className='blog-date'>
-                                        <h4 className='text-white'>25 Jan</h4>
-                                    </div>
-                                    <div className="card-body">
-                                        <h2>Car part for new 39-store office</h2>
-                                        <p>A car is a wheeled motor vehicle that is used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four wheels, and mainly transport people instead of</p>
-                                        <p className='icon-pera'><span className='blog-first-icon m'><FontAwesomeIcon className='blog-icon  me-2' icon={faUser} />Travel , Lifestyle </span> <span className='ms-3'><FontAwesomeIcon className='blog-icon me-2' icon={faMessage} /> 3 comments </span></p>
-                                    </div>
-                                </div>
-
+                                <BlogShow/>
                             </div>
                             <div className="col-lg-4 col-md-4">
                                 <div className="search-card">
@@ -97,50 +43,25 @@ const Blog = () => {
                                             <li class="list-group-item my-2">Royal Royals Cars (55) </li>
                                             <li class="list-group-item my-2">Vugati Cars (65) </li>
                                             <li class="list-group-item my-2">Lamborghini Cars (175) </li>
-                                           
+
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="post-list">
+                                    <RecentPosts/>
+                                </div>
+                                <div className='Tag-could-part my-5'>
                                 <div class="card" >
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item "><h3 className='my-3'>Recent Posts</h3></li>
-                                            <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
-                                                <div className="list-title-part ms-3">
-                                                    <h6 className='mb-0'>The car from Canada</h6>
-                                                    <p className='m-1'>24 August 2022</p>
-                                                </div>
-                                            </li>                                           
-                                            <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
-                                                <div className="list-title-part ms-3">
-                                                    <h6 className='mb-0'>The car from America</h6>
-                                                    <p className='m-1'>14 August 2022</p>
-                                                </div>
-                                            </li>                                           
-                                            <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
-                                                <div className="list-title-part ms-3">
-                                                    <h6 className='mb-0'>The car from Jarman</h6>
-                                                    <p className='m-1'>24 August 2022</p>
-                                                </div>
-                                            </li>                                           
-                                            <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1602777924012-f8664ffeed27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
-                                                <div className="list-title-part ms-3">
-                                                    <h6 className='mb-0'>The car from Canada</h6>
-                                                    <p className='m-1'>4 August 2022</p>
-                                                </div>
-                                            </li>                                           
-                                            <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
-                                                <div className="list-title-part ms-3">
-                                                    <h6 className='mb-0'>The car from Canada</h6>
-                                                    <p className='m-1'>20 August 2022</p>
-                                                </div>
-                                            </li>                                           
-                                           
+                                            <li class="list-group-item "><h3 className='my-3'>Tag Coulds</h3></li>
+                                            <li class="list-group-item my-2 tag-list">
+                                                <p className='list-pera'>Style Car</p> 
+                                                <p className='list-pera'>Travel Car</p> 
+                                                <p className='list-pera'>Business Car</p> 
+                                                <p className='list-pera'>Update Car</p> 
+                                                <p className='list-pera'>Latest Car</p> 
+                                            </li>
+                                            
                                         </ul>
                                     </div>
                                 </div>

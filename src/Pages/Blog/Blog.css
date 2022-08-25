@@ -44,3 +44,17 @@
     border-radius: 5px;
 
 }
+.tag-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-pera{
+    background-color: rgb(43, 199, 226);
+    padding: 8px;
+    margin: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+   
+    
+}
