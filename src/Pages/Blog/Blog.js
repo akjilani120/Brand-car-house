@@ -95,7 +95,7 @@ const Blog = () => {
                                             <span class="input-group-text bg-primary text-white">Email</span>
 
                                         </div>
-                                        <button className='btn btn-outline-primary text-center p-3 my-3'>Submit</button>
+                                        <button className='btn btn-primary text-center p-3 my-3'>Send</button>
                                     </div>
                                 </div>
                             </div>
