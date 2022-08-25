@@ -104,56 +104,42 @@ const Blog = () => {
                                 <div className="post-list">
                                 <div class="card" >
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item "><h3 className='my-3'>Recent Post</h3></li>
+                                            <li class="list-group-item "><h3 className='my-3'>Recent Posts</h3></li>
                                             <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img src="" alt="" /></div>
-                                                <div className="list-title-part">
-                                                    <h6 className='mb-0'></h6>
-                                                    <p className='m-1'></p>
+                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
+                                                <div className="list-title-part ms-3">
+                                                    <h6 className='mb-0'>The car from Canada</h6>
+                                                    <p className='m-1'>24 August 2022</p>
                                                 </div>
-                                            </li>
+                                            </li>                                           
                                             <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img src="" alt="" /></div>
-                                                <div className="list-title-part">
-                                                    <h6 className='mb-0'></h6>
-                                                    <p className='m-1'></p>
+                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
+                                                <div className="list-title-part ms-3">
+                                                    <h6 className='mb-0'>The car from Canada</h6>
+                                                    <p className='m-1'>24 August 2022</p>
                                                 </div>
-                                            </li>
+                                            </li>                                           
                                             <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img src="" alt="" /></div>
-                                                <div className="list-title-part">
-                                                    <h6 className='mb-0'></h6>
-                                                    <p className='m-1'></p>
+                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
+                                                <div className="list-title-part ms-3">
+                                                    <h6 className='mb-0'>The car from Canada</h6>
+                                                    <p className='m-1'>24 August 2022</p>
                                                 </div>
-                                            </li>
+                                            </li>                                           
                                             <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img src="" alt="" /></div>
-                                                <div className="list-title-part">
-                                                    <h6 className='mb-0'></h6>
-                                                    <p className='m-1'></p>
+                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
+                                                <div className="list-title-part ms-3">
+                                                    <h6 className='mb-0'>The car from Canada</h6>
+                                                    <p className='m-1'>24 August 2022</p>
                                                 </div>
-                                            </li>
+                                            </li>                                           
                                             <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img src="" alt="" /></div>
-                                                <div className="list-title-part">
-                                                    <h6 className='mb-0'></h6>
-                                                    <p className='m-1'></p>
+                                                <div className="list-img-part"><img className='list-img' src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Recen photos" /></div>
+                                                <div className="list-title-part ms-3">
+                                                    <h6 className='mb-0'>The car from Canada</h6>
+                                                    <p className='m-1'>24 August 2022</p>
                                                 </div>
-                                            </li>
-                                            <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img src="" alt="" /></div>
-                                                <div className="list-title-part">
-                                                    <h6 className='mb-0'></h6>
-                                                    <p className='m-1'></p>
-                                                </div>
-                                            </li>
-                                            <li class="list-group-item my-2 d-flex align-items-center">
-                                                <div className="list-img-part"><img src="" alt="" /></div>
-                                                <div className="list-title-part">
-                                                    <h6 className='mb-0'></h6>
-                                                    <p className='m-1'></p>
-                                                </div>
-                                            </li>
+                                            </li>                                           
                                            
                                         </ul>
                                     </div>
