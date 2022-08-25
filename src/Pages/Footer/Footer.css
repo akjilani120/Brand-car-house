@@ -1,21 +1,36 @@
 .footer{
-    
-    background-color: rgba(7, 7, 36, 0.905);
+    background-color: white;
 }
 .footer .footer-overflow{
     
-    color: white;
+    color: black;
     display: flex;    
     justify-content: center;
    flex-wrap: wrap;
 }
 .footer-number{
-    width: 30%;
+    width: 20%;
     padding: 5px 15px;
+}
+.first-footer-number{
+    width: 40%;
 }
 .last-footer{
     background: linear-gradient(90deg, rgb(2, 0, 26) 0%, rgb(1, 1, 7) 35%, rgb(1, 23, 27) 100%);
     padding: 15px;
+}
+.footer-number ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.footer-number h5{
+    margin-bottom: 20px;
+    
+}
+.footer-number ul li{
+    margin: 5px auto;
 }
 @media screen and (max-width:768px) {
     .footer .footer-overflow{
