@@ -156,6 +156,15 @@ margin: 0;
     display: inline-block;
 }
 /* Looks car component over */
+/* Brandlog start */
+.brand-main{
+    background: linear-gradient(90deg, rgb(2, 0, 26) 0%, rgb(1, 1, 7) 35%, rgb(1, 23, 27) 100%);
+}
+.logo-slide-img{
+    width: 40%;
+    height: 120px;
+}
+/* Brandlog over */
 @media screen and (max-width:998px) {
     
    .service-item{
