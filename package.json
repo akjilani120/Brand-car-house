@@ -20,6 +20,7 @@
     "react-firebase-hooks": "^5.0.3",
     "react-hook-form": "^7.32.2",
     "react-image-magnify": "^2.7.4",
+    "react-js-stickynav": "^1.0.2",
     "react-loader-spinner": "^5.1.5",
     "react-modal-image": "^2.5.0",
     "react-query": "^3.39.1",

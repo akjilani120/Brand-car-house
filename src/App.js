@@ -50,7 +50,7 @@ function App() {
   return (
     
     <div className="App">
-      <NavbarHeader></NavbarHeader>    
+      {/* <NavbarHeader></NavbarHeader>     */}
      <Navbara></Navbara>
     <Routes>
       <Route path='/' element={<Home></Home>}>

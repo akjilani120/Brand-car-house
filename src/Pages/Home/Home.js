@@ -12,7 +12,7 @@ import MoreCar from './MoreCar';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
                                  
            <Banner></Banner> 
            <FindCar></FindCar>

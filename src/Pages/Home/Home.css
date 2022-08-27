@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Banner start */
+.banner-header , .blog-main-part , .about-main-part{
+    padding-top: 130px;
+}
+/* Banner over */
 .findcar-main{
     height: 70vh;
     background-position: center;

@@ -6,7 +6,7 @@ import RecentPosts from './RecentPosts';
 import BlogShow from './BlogShow';
 const Blog = () => {
     return (
-        <div>
+        <div className='blog-main-part'>
             <section className='header-sec'>
                 <div className='blog-main' >
                     <h1 className='blog-title text-warning'>Car Blogs</h1>

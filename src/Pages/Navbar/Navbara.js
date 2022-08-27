@@ -8,6 +8,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';
 import IsLoading from '../Hooks/IsLoading';
+import NavbarHeader from './NavbarHeader';
 
 
 
@@ -21,12 +22,14 @@ const Navbara = () => {
     if(loading){
         return <IsLoading></IsLoading>
     }
+    
     return (
-      <div className='navbar-main'  >         
-            <Navbar  collapseOnSelect expand="lg" className='navigat'  sticky='top' >
+      <div className='navbar-main'  >   
+      <NavbarHeader/>      
+            <Navbar  collapseOnSelect expand="lg" className='navigat'   >
             <Container>
                 <Navbar.Brand className='d-lg-none' href="#home"> <h2 className='Navbar-title '> <span className='ak'>B</span>rand <span className='ak'>C</span>ar <span className='ak'>H</span>ouse </h2></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle className=' bg-white' aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link > <Link className="nav-item-link" to="/">Home</Link></Nav.Link>
@@ -41,7 +44,7 @@ const Navbara = () => {
                     <Nav>
                         <Nav.Link > 
                             <div className='login-items'>
-                            { user ? <div   className='btn btn-dark logout-head'> {user.displayName}
+                            { user ? <div   className='btn btn-warning text-white logout-head'> {user.displayName}
                             <div className='logout-details'>
                                 <ul>
                                     <Link className='view-profile' to="/profileDashboard"> <li >View Profile</li></Link>

@@ -1,11 +1,16 @@
-.navigat{
-    position: sticky;
+.navbar-main{
+    position: fixed;
+    background-color: rgb(8, 7, 26);
+  
+    color: white;
+    width: 100%;
+    z-index: 99999;    
 }
 .nav-item-link{
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0px 5px;
     padding: 15px 12px  ;
     
@@ -43,6 +48,7 @@ padding: 15px 12px  ;
     font-weight: 500;
     margin: 0;
     padding: 0;
+    color: white;
     
 }
 .Navbar-title .ak{
@@ -80,7 +86,7 @@ color: rgb(245, 91, 91);
     
 }
 .navbar-main{
-    background-color: white;
+    /* background-color: white; */
     box-shadow: -10px  10px 15px silver;
 }
 .Nav-header{
