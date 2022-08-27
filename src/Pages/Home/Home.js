@@ -8,6 +8,7 @@ import SpecialCar from './SpecialCar';
 import CarOffer from './CarOffer';
 import CatHead from './Categorious/CatHead';
 import BrandLogo from './BrandLogo';
+import MoreCar from './MoreCar';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
            <CarOffer></CarOffer>
            <CatHead></CatHead>
            <BrandLogo/>
+           <MoreCar/>
         </div>
     );
 };

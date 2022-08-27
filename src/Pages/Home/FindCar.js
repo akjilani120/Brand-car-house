@@ -9,7 +9,7 @@ const FindCar = () => {
 
             
                 <div className='fincar-overflow'>
-                    <h1 className='findcar-title '>Find  cars for your journey</h1>
+                    <h1 className='findcar-title text-warning'>Find  cars for your journey</h1>
                     <div className='container'>
                         <div className='row mt-5'>
                             <div className='col-12 text-center'>

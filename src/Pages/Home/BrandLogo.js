@@ -54,7 +54,7 @@ const BrandLogo = () => {
         ]
       };
     return (
-        <div className='p-lg-5 p-3 brand-main my-3'>
+        <div className='p-lg-5 p-3 brand-main my-2'>
                      <h1 className='text-warning text-center mt-2 mb-5'>Select Your Favourite Brand</h1>
              <Slider className='mb-4  px-3' {...settings}>
           <div>
