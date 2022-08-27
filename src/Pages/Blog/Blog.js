@@ -1,17 +1,15 @@
 import React from 'react';
 
 import './Blog.css'
-import bg from '../image/Blog/hero2.png'
+
 import RecentPosts from './RecentPosts';
 import BlogShow from './BlogShow';
 const Blog = () => {
     return (
         <div>
             <section className='header-sec'>
-                <div className='blog-main' style={{
-                    backgroundImage: `url(${bg})`
-                }}>
-                    <h1 className='blog-title'>Car Blogs</h1>
+                <div className='blog-main' >
+                    <h1 className='blog-title text-warning'>Car Blogs</h1>
                 </div>
             </section>
             <section>

@@ -1,17 +1,15 @@
 import React from 'react';
-import ModalImage from "react-modal-image";
+
 import MoreCar from '../Home/MoreCar';
 import './About.css'
 
 const About = () => {
     return (
         <div>
-            <section className='banner-sec '>
-
+            <section className='banner-sec'>
                 <div className='banner-overflow'>
-                    <h1 className='about-title '>About Us</h1>
-                    <p className='about-para text-warning'>Our company is best car service company . Our servic so good. Our cars quality are best </p>
-                    <button className='btn btn-warning p-3 fw-bold text-white my-3'>Submit Now</button>
+                    <h1 className='about-title text-warning'>About Us</h1>
+                    
                 </div>
             </section>
             <section className='skill-team my-5 '>

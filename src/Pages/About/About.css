@@ -1,22 +1,17 @@
-.banner-sec{
-    background-image: url("https://images.unsplash.com/photo-1518987048-93e29699e79a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+.banner-sec{  
+    background: linear-gradient(90deg, rgb(5, 2, 48) 0%, rgb(5, 5, 37) 35%, rgb(1, 23, 27) 100%);
     background-attachment: fixed;
-    height: 60vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content:start;
+    justify-content:center;
     align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 81%);
     
 }
-.banner-overflow{
-    background-color: rgba(0, 0, 0, 0.507);
-    height: 60vh;
-    width: 100%;
-    padding: 50px;
-}
-.about-title{
-   
+
+.about-title{   
     font-size: 70px;
     color: #F41437;
 }
