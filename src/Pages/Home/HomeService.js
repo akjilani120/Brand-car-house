@@ -5,7 +5,7 @@ import { faTruckFast,  faDollyBox , faHeadset, faCreditCard } from '@fortawesome
 const HomeService = () => {
     return (
         <div className='home-service-main py-5'>
-            <div className='container'>
+            <div className='container' >
                 
                     <div className='row'>
                     <div className='col-lg-3 col-md-6'>

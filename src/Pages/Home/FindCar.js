@@ -6,7 +6,6 @@ import { Form } from 'react-bootstrap';
 const FindCar = () => {
     return (
         <div className='findcar-main mt-3' style={{ backgroundImage: `url(${bgimg})` }} >
-
             
                 <div className='fincar-overflow'>
                     <h1 className='findcar-title text-warning'>Find  cars for your journey</h1>

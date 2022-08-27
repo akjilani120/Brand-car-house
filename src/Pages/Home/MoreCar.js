@@ -2,7 +2,7 @@ import React from 'react';
 import ModalImage from "react-modal-image";
 const MoreCar = () => {
     return (
-        <section className='show-car py-4'>
+        <section className='show-car py-4 '>
         <h1 className='my-4 text-center text-warning'>More Cars</h1>
         <div className='show-car-body'>
             <div>

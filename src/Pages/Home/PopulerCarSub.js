@@ -8,7 +8,7 @@ const PopulerCarSub = ({car}) => {
         navigate(`/popularCarDetails/${id}`)
     }
     return (
-        <Col className='my-3 card-col'>
+        <Col className='my-3 card-col' >
         <div className='d-flex justify-content-center car-items-head ' >
             <div className='car-about'>
                 <h6>Car Name : {model}</h6>
