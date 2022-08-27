@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 /* Banner start */
-.banner-header , .blog-main-part , .about-main-part{
+.banner-header , .blog-main-part , .about-main-part , .contact-main-part{
     padding-top: 130px;
 }
 /* Banner over */

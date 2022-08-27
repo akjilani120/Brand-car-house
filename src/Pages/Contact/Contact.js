@@ -4,7 +4,7 @@ import { faEnvelope, faLocationPin, faPhone, } from '@fortawesome/free-solid-svg
 import "./Contact.css"
 const Contact = () => {
     return (
-        <div className=''>
+        <div className='contact-main-part'>
             <div className='row'>
                 <div className="col-md-4">
                     <div className="contract-left p-5">

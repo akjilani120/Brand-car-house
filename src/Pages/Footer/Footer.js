@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-overflow pt-5">
                     <div className="footer-number first-footer-number p-4">
                         <div className="logo">
-                        <h2 className='Navbar-title '> <span className='ak'>B</span>rand <span className='ak'>C</span>ar <span className='ak'>H</span>ouse </h2>
+                        <h2 className='Navbar-title text-dark '> <span className='ak'>B</span>rand <span className='ak'>C</span>ar <span className='ak'>H</span>ouse </h2>
                         </div>
                         <p className=''>Our Car house is the best Store.It has  update car and best car.Our service is best service</p>
                         <hr className=' mt-3' />
