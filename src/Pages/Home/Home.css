@@ -30,8 +30,15 @@
     background-color: white;
     color: black;
 }
+.service-item:hover .service-details{
+    color: black;
+}
+.service-item:hover .service-number{
+    color: black;
+}
 .service-icon-head{
     position: relative;
+    color: white;
 }
 .service-icon{
     color: rgb(245, 91, 91);
@@ -42,12 +49,12 @@
    top: 30px;
 }
 .service-details{
-   opacity: .5;
+  
     font-weight: 500;
 }
 .service-number{
     font-size: 65px;
-    opacity: .3;
+    color: white;
     font-weight: 600;
     z-index: .2;
 }
@@ -98,8 +105,9 @@ margin: 0;
     width: 50%;
     overflow: hidden;
 }
+
 .car-img img{
-    height: 200px;
+    height: 250px;
     transition: 600ms;
     
 }
@@ -186,4 +194,9 @@ margin: 0;
    .service-item{
     height: 320px;
    }
+}
+@media screen and (max-width:560px) {
+    .findcar-main{
+        height: 80vh;
+    }
 }

@@ -8,7 +8,7 @@ const HomeService = () => {
             <div className='container'>
                 
                     <div className='row'>
-                    <div className='col-lg-3 col-6'>
+                    <div className='col-lg-3 col-md-6'>
                         <div  className='service-item p-3'>
                             <p className='service-icon-head'> <span className='service-number' >01</span> <FontAwesomeIcon className='service-icon' icon={faTruckFast} /> </p>
                             <h4>Free Shipping <span className='text-warning '>.</span> </h4>
@@ -16,7 +16,7 @@ const HomeService = () => {
                             <p className='service-details'>about $ 100</p>
                         </div>
                     </div>
-                    <div className='col-lg-3 col-6 mb-3'>
+                    <div className='col-lg-3 col-md-6 mb-3'>
                         <div  className='service-item p-3'>
                             <p className='service-icon-head'> <span className='service-number' >02</span> <FontAwesomeIcon className='service-icon' icon={faDollyBox } /> </p>
                             
@@ -25,7 +25,7 @@ const HomeService = () => {
                             <p className='service-details'>to 7 days week</p>
                         </div>
                     </div>
-                    <div className='col-lg-3 col-6'>
+                    <div className='col-lg-3 col-md-6'>
                         <div  className='service-item p-3'>
                             <p className='service-icon-head'> <span className='service-number' >03</span> <FontAwesomeIcon className='service-icon' icon={ faHeadset } /> </p>
                             <h4>24/7 Friendly support  </h4>
@@ -33,7 +33,7 @@ const HomeService = () => {
                             <p className='service-details'>to 7 days week</p>
                         </div>
                     </div>
-                    <div className='col-lg-3 col-6'>
+                    <div className='col-lg-3 col-md-6'>
                         <div  className='service-item p-3'>
                             <p className='service-icon-head'> <span className='service-number' >04</span> <FontAwesomeIcon className='service-icon' icon={faCreditCard} /> </p>
                             <h4>Payment Secure<span className='text-warning '>.</span> </h4>
