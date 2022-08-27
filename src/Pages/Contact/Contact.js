@@ -4,7 +4,14 @@ import { faEnvelope, faLocationPin, faPhone, } from '@fortawesome/free-solid-svg
 import "./Contact.css"
 const Contact = () => {
     return (
-        <div className='contact-main-part'>
+       <div  className='contact-main-part'>
+          <section className='banner-sec'>
+                <div className='banner-overflow'>
+                    <h1 className='about-title text-warning'>Contact Us</h1>
+                    
+                </div>
+            </section>
+         <div >
             <div className='row'>
                 <div className="col-md-4">
                     <div className="contract-left p-5">
@@ -61,6 +68,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+       </div>
     );
 };
 
