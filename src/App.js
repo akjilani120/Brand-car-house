@@ -39,6 +39,7 @@ import Service from "./Pages/Service/Service";
 import NotFound from './Pages/NotFound_page/NotFound';
 import Dashboard from './Pages/DashBoard/Dashboard';
 import PopularCarDetails from './Pages/Home/PopularCarDetails/PopularCarDetails';
+import MainDashboard from './Pages/MainDashboard/MainDashboard'
 import Admin from './Pages/DashBoard/Admin';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -99,6 +100,7 @@ function App() {
         <Route path='special' element={<SpecialCarDataAdd></SpecialCarDataAdd>}></Route>
         <Route path='allOrders' element={<AllOrders></AllOrders>}></Route>
       </Route>
+      <Route path='/mainDashboard' element={<MainDashboard/>}></Route>
       <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
     

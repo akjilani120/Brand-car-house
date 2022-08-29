@@ -38,7 +38,8 @@ const Navbara = () => {
                         <Nav.Link > <Link className="nav-item-link" to="/contact">Contact Us </Link></Nav.Link>                       
                         <Nav.Link > <Link className="nav-item-link" to="/useCar">Use Car </Link></Nav.Link>
                         <Nav.Link > <Link className="nav-item-link" to="/service">Service </Link></Nav.Link>
-                        <Nav.Link >  <Link className="nav-item-link" to="/dashboard">Dashboard </Link></Nav.Link>
+                        <Nav.Link > <Link className="nav-item-link" to="/mainDashboard">Dashboard </Link></Nav.Link>
+                        <Nav.Link >  <Link className="nav-item-link" to="/dashboard">Admin</Link></Nav.Link>
 
                     </Nav>
                     <Nav>
