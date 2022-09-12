@@ -9,9 +9,6 @@ import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';
 import IsLoading from '../Hooks/IsLoading';
 import NavbarHeader from './NavbarHeader';
-
-
-
 const Navbara = () => {
     const [user , loading] = useAuthState(auth)
     
@@ -54,7 +51,7 @@ const Navbara = () => {
                                 </ul>
                             </div>
                             </div> :
-                           <Link className="nav-login" to="/login"> <p><FontAwesomeIcon className='user-icon' icon={faUser} />
+                           <Link className="nav-login " to="/login"> <p><FontAwesomeIcon className='user-icon' icon={faUser} />
                             login
                             </p> </Link>}
                            

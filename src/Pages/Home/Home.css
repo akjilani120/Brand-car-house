@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 /* Banner start */
-.banner-header , .blog-main-part , .about-main-part , .contact-main-part , .dashboard-main , .service-main , .use-car-main , .main-dashboard {
-    padding-top: 140px;
-}
+
 /* Banner over */
 .findcar-main{
     height: 70vh;

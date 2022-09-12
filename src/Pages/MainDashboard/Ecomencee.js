@@ -43,16 +43,16 @@ const Ecomencee = () => {
 
    
     return (
-        <div className='emr-part'>
+        <div className='emr-part bg-secondary p-5'>
             <div className='emr-header' >
-                <div><h3>Dashboard</h3></div>
+                <div ><h3 className='text-white'>Dashboard</h3></div>
                 <div>
                     <ul>
-                        <li><FontAwesomeIcon className='emr-font-icon' icon={faMagnifyingGlass} /></li>
+                        <li><FontAwesomeIcon className='emr-font-icon text-white' icon={faMagnifyingGlass} /></li>
                         <li><img src="https://image.shutterstock.com/image-vector/vector-illustration-usa-flag-260nw-572934400.jpg" alt="" /></li>
-                        <li><FontAwesomeIcon className='emr-font-icon' icon={faWindowRestore} /></li>
-                        <li><FontAwesomeIcon className='emr-font-icon' icon={faBell} /></li>
-                        <li><FontAwesomeIcon className='emr-font-icon' icon={faGear} /></li>
+                        <li><FontAwesomeIcon className='emr-font-icon text-white' icon={faWindowRestore} /></li>
+                        <li><FontAwesomeIcon className='emr-font-icon text-white' icon={faBell} /></li>
+                        <li><FontAwesomeIcon className='emr-font-icon text-white' icon={faGear} /></li>
                         <li><img src="https://images.unsplash.com/photo-1548637724-cbc39e0c8d3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="" /></li>
                     </ul>
                 </div>

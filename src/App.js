@@ -46,6 +46,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import PopulerDataAdd from './Pages/DashBoard/PopulerDataAdd';
 import SpecialCarDataAdd from './Pages/DashBoard/SpecialCarDataAdd';
 import AllOrders from './Pages/DashBoard/AllOrders';
+import Dhashboard from './Pages/MainDashboard/MainDashboard';
+import Ecomencee from './Pages/MainDashboard/Ecomencee';
 
 function App() {
   return (
@@ -100,7 +102,9 @@ function App() {
         <Route path='special' element={<SpecialCarDataAdd></SpecialCarDataAdd>}></Route>
         <Route path='allOrders' element={<AllOrders></AllOrders>}></Route>
       </Route>
-      <Route path='/mainDashboard' element={<MainDashboard/>}></Route>
+      <Route path='/mainDashboard' element={<Dhashboard/>}>
+      <Route index element={<Ecomencee/>}></Route>
+      </Route>
       <Route path='*' element={<NotFound></NotFound>}></Route>
     </Routes>
     

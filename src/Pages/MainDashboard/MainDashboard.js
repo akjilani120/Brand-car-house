@@ -6,12 +6,10 @@ import { Link, Outlet } from 'react-router-dom';
 const Dhashboard = () => {
     return (
         <div className='main-dashboard'>
+           
             <div className=''>
-            
-            <div className=''>
-                    <Outlet/>
+                <Outlet/>
             </div>
-        </div>
         </div>
     );
 };
